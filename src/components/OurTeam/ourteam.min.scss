@@ -1,0 +1,24 @@
+.tem-thmb {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    min-height: 24.375rem !important;
+    background-size: cover;
+    background-position-x: 0;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.tem-scl {
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    bottom: -2.875rem;
+    opacity: 0;
+}
+.smolfontsize{
+    font-size: 2rem !important;
+}
+.youthteampad{
+    margin-top: 3rem !important;
+}

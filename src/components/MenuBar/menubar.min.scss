@@ -1,0 +1,36 @@
+a.thm-btn.yellowcolor{
+    background: #00c664 !important;
+}
+.makethebarfix{
+    position: fixed !important;
+    background: white !important;
+    z-index: 15 !important;
+}
+.kannadatextfinal{
+    width: 12.5rem !important;
+}
+
+@media (max-width: 780px){
+    .kannadatextfinal{
+    display: none;
+}
+}
+@media (max-width: 1200px){
+    .kannadatextfinal{
+    display: none;
+}
+}
+.whitebkgnd{
+    background-color: white !important;
+}
+.navbar-light .navbar-toggler {
+    color: white !important;
+    border-color: #1b6dae !important;
+    
+}
+
+@media (min-width: 996px){
+    .mobilenotrqd{
+        display: none !important;
+}
+}

@@ -1,0 +1,15 @@
+.bkgndwhite{
+    background: white !important;
+}
+
+.part-img > img {
+opacity: 0.7 !important;
+}
+
+.part-img:hover > img {
+    // -webkit-filter: grayscale(5);
+    // -ms-filter: grayscale(5);
+    // -o-filter: grayscale(5);
+    // filter: grayscale(5);
+    opacity: 1 !important;
+  }

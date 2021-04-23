@@ -1,0 +1,16 @@
+.reportaspot {
+  margin-top: 0.9375rem !important;
+}
+.respspace{
+  padding-top: 3.125rem;
+}
+@media(max-width: 990px){
+  .respspace{
+    padding-top: 5rem !important;
+  }
+}
+@media(min-width: 770px) and (max-width: 990px){
+  .respspace{
+    padding-top: 2rem !important;
+  }
+}
