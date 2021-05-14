@@ -88,7 +88,7 @@ function MenuBar() {
               </ul>
               <a
                 class="thm-btn yellowcolor"
-                href="https://milaap.org/fundraisers/cleanathon-by-lbtc"
+                href="https://rzp.io/l/lbtcdonate4needy"
                 title=""
                 itemprop="url"
                 target="_blank"

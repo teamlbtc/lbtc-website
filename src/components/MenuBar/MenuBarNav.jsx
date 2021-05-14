@@ -110,7 +110,7 @@ function MenuBar() {
             Covid-19
           </Nav.Link>
           <Nav.Link
-            href="https://milaap.org/fundraisers/cleanathon-by-lbtc"
+            href="https://rzp.io/l/lbtcdonate4needy"
             style={{
               color: "white",
               textAlignLast: "center",

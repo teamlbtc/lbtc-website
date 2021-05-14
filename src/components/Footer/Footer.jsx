@@ -79,7 +79,7 @@ function Footer() {
               </div>
               <div class="col-md-4 col-sm-6 col-lg-4">
                 <p class="cpyrgt-p" itemprop="description">
-                  Copyright 2020 &copy;{" "}
+                  Copyright {new Date().getFullYear()} &copy;{" "}
                   <a href="index.html" title="Team LBTC" itemprop="url">
                     Team LBTC <br />
                   </a>{" "}
