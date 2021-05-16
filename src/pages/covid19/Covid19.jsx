@@ -6,6 +6,8 @@ import "../aboutus/aboutus.min.scss";
 import {
     Link } from "react-router-dom";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
+import ImageSlider from '../../components/ImageSlider/ImageSlider';
+import { SliderData } from '../../components/ImageSlider/SliderData';
 
 class Covid19 extends Component {
     render() {
@@ -271,16 +273,18 @@ class Covid19 extends Component {
                     </div>
                 </section>
                 <div className="tem-wrp text-center remove-ext4">
-                    <div className="row" style={{ marginBottom: "75px" }}>
+                    <div className="row" style={{ marginBottom: "90px" }}>
 
-                        <div className="col-md-12 col-sm-12 col-lg-12">
-                            <img
+                        <div className="col-md-12 col-sm-12 col-lg-12" style={{ paddingLeft: "170px" , paddingRight: "170px" }}>
+                            {/* <img
                                 src={require("../covid19/Team-F.png")}
                                 alt="Covid-Team.jpg"
                                 itemprop="image"
                                 style={{marginBottom:"25px"}}
-                            />
+                            /> */}
+                            <ImageSlider slides={SliderData}></ImageSlider>
                         </div>
+                        
                     </div>
                 </div>
                 <Footer></Footer> {/* Footer Component */}
