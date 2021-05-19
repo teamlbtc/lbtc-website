@@ -4,19 +4,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   
   .image {
     width: 1000px;
-    height: 600px;
+    height: auto;
+    max-height: 600px;
+    display:flex;
     border-radius: 10px;
+    object-fit: cover;
   }
   
   .right-arrow {
     position: absolute;
     top: 50%;
-    right: 10px;
-    font-size: 3rem;
+    right: 10rem;
+    font-size: 2rem;
     color: #16a200;
     z-index: 10;
     cursor: pointer;
@@ -26,8 +30,8 @@
   .left-arrow {
     position: absolute;
     top: 50%;
-    left: 10px;
-    font-size: 3rem;
+    left: 10rem;
+    font-size: 2rem;
     color: #16a200;
     z-index: 10;
     cursor: pointer;
