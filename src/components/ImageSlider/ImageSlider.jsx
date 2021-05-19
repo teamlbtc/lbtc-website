@@ -30,7 +30,7 @@ const ImageSlider = () => (
     {
       resolve: autoplayPlugin,
       options: {
-        interval: 1700,
+        interval: 1800,
       }
     },
   ]}>
