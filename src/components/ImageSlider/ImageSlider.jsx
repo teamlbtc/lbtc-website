@@ -1,42 +1,50 @@
-import React, { useState } from 'react';
-import { SliderData } from './SliderData';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
-import './Slider.css'
+import React from 'react';
+import Carousel, { arrowsPlugin, autoplayPlugin  } from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
+import imageOne from './1.jpg'
+import imageTwo from './2.jpg'
+import imageThree from './3.jpg'
+import imageFour from './4.jpg'
+import imageFive from './5.jpg'
+import imageSix from './6.jpg'
+import imageSeven from './7.jpg'
+import imageEight from './8.jpg'
+import imagenine from './9.jpg'
+import imageten from './10.jpg'
+import Icon from 'react-fa';
 
-const ImageSlider = ({ slides }) => {
-  const [current, setCurrent] = useState(0);
-  const length = slides.length;
-
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
-
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
-
-  if (!Array.isArray(slides) || slides.length <= 0) {
-    return null;
-  }
-
-  return (
-    <section className='slider'>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
-      {SliderData.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt='travel image' className='image' />
-            )}
-          </div>
-        );
-      })}
-    </section>
-  );
-};
+const ImageSlider = () => (
+  
+  <Carousel plugins={[
+    'infinite',
+    {
+      resolve: arrowsPlugin,
+      options: {
+        arrowLeft: <button><Icon name="angle-double-left" /></button>,
+        arrowLeftDisabled:<button><Icon name="angle-left" /></button>,
+        arrowRight: <button><Icon name="angle-double-right" /></button>,
+        arrowRightDisabled: <button><Icon name="angle-right" /></button>,
+        addArrowClickHandler: true,
+      }
+    },
+    {
+      resolve: autoplayPlugin,
+      options: {
+        interval: 1700,
+      }
+    },
+  ]}>
+    <img src={imageOne} />
+    <img src={imageTwo} />
+    <img src={imageThree} />
+    <img src={imageFour} />
+    <img src={imageFive} />
+    <img src={imageSix} />
+    <img src={imageSeven} />
+    <img src={imageEight} />
+    <img src={imagenine} />
+    <img src={imageten} />
+  </Carousel>
+);
 
 export default ImageSlider;

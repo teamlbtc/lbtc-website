@@ -273,16 +273,16 @@ class Covid19 extends Component {
                     </div>
                 </section>
                 <div className="tem-wrp text-center remove-ext4">
-                    <div className="row" style={{ marginBottom: "90px" }}>
+                    <div className="row" style={{ marginBottom: "3rem" , marginTop: "1rem" , justifyContent:"center" }}>
 
-                        <div className="col-md-12 col-sm-12 col-lg-12" style={{ paddingLeft: "170px" , paddingRight: "170px" }}>
+                        <div className="col-md-12 col-sm-12 col-lg-12" style={{maxWidth: "1100px"}}>
                             {/* <img
                                 src={require("../covid19/Team-F.png")}
                                 alt="Covid-Team.jpg"
                                 itemprop="image"
                                 style={{marginBottom:"25px"}}
                             /> */}
-                            <ImageSlider slides={SliderData}></ImageSlider>
+                            <ImageSlider></ImageSlider>
                         </div>
                         
                     </div>
