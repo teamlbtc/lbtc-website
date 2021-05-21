@@ -6,7 +6,7 @@
   "dependencies": {
     "@apollo/client": "^3.0.2",
     "@brainhubeu/react-carousel": "^2.0.3",
-    "@material-ui/core": "^4.11.0",
+    "@material-ui/core": "^4.11.4",
     "@reduxjs/toolkit": "^1.4.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -28,7 +28,8 @@
     "react-scripts": "^3.4.3",
     "react-slideshow-image": "^3.4.6",
     "react-toastify": "^6.0.9",
-    "react-youtube": "^7.11.3"
+    "react-youtube": "^7.11.3",
+    "reactjs-popup": "^2.0.4"
   },
   "scripts": {
     "start": "react-scripts start",

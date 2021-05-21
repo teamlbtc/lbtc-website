@@ -1,6 +1,7 @@
 import React from 'react';
 import '../HeaderBar/headerbar.min.scss';
 
+
 function HeaderBar() {
     return (
       <div
@@ -21,6 +22,7 @@ function HeaderBar() {
                   <i className="flaticon-error thm-clr"></i>
                   <strong>Crisis Watch:</strong> Covid-19 In India
                 </p>
+                
               </div>
             </div>
           </div>

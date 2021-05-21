@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useState } from 'react'
 import AboutUs from "../../components/AboutUs/AboutUs";
 import BlogArticles from "../../components/BlogArticles/BlogArticles";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
@@ -9,26 +9,37 @@ import Footer from "../../components/Footer/Footer";
 import LbtcCarousel from "../../components/LbtcCarousel/LbtcCarousel";
 import OurActivities from "../../components/OurActivities/OurActivities";
 import EventFunding from "../../components/EventFunding/EventFunding";
-import Testimonials from "../../components/Testimonials/Testimonials";
+// import Testimonials from "../../components/Testimonials/Testimonials";
 import { Link } from "react-router-dom";
 import "../homepage/homepage.min.scss";
 import PartnersContainer from "../../components/PartnersContainer/PartnersContainer.component";
+import NewPop from "../../components/popup/NewPop";
+import 'reactjs-popup/dist/index.css';
+
 
 const HomePage = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  
+
   return (
     <div className="App">
       <main>
+      
+        <NewPop class="top" >
+        </NewPop> 
         <HeaderBar></HeaderBar> {/* Headers Component */}
         <MenuBar></MenuBar> {/* MenuBar Component */}
         <StickyHeader></StickyHeader> {/* StickyHeader Component */}
         {/* <ResponsiveHeader></ResponsiveHeader> Headers Component */}
         <MenuBarX></MenuBarX>
-        <LbtcCarousel></LbtcCarousel> {/* Home Page First Section Component */}
-        <AboutUs></AboutUs> {/* About Us Component */}
+        <LbtcCarousel></LbtcCarousel>
+        {/* Home Page First Section Component */}
+        <AboutUs></AboutUs>{/* About Us Component */}
         <EventFunding></EventFunding> {/* Event Funds Section Component */}
+        
         <section>
           <div className="block remove-gap">
             <div
