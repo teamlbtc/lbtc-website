@@ -30,7 +30,8 @@ const SignUpForm = () => {
             PhoneNumber: PhoneNumber,
             Email: Email,
             Subject: Subject,
-            Message: Message
+            Message: Message,
+            curTime : new Date().toLocaleString()
         }).then(() => {
             toast.success('Thank You! We\'ll Get Back To You Soon', {
                 position: "bottom-right",
