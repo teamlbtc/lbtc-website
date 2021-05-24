@@ -210,7 +210,7 @@ function EventFunding() {
                   <div className="cus-bx3">
                     <div className="cus-thmb">
                       <a
-                        href="https://rzp.io/l/lbtcdonate4needy"
+                        href="https://www.ketto.org/fundraiser/westandtogether-oxygen-support-for-10k-vulnerable-families?payment=form"
                         title=""
                         itemprop="url"
                         target="_blank"
