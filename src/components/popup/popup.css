@@ -11,9 +11,10 @@
     justify-content: center;
     align-items: center;
 
-
-
-  
+}
+.bar {
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .popup-inner{

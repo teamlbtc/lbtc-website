@@ -88,7 +88,7 @@ function MenuBar() {
               </ul>
               <a
                 class="thm-btn yellowcolor"
-                href="https://rzp.io/l/lbtcdonate4needy"
+                href="https://www.ketto.org/fundraiser/westandtogether-oxygen-support-for-10k-vulnerable-families?payment=form"
                 title=""
                 itemprop="url"
                 target="_blank"

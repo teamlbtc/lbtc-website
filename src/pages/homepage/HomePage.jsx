@@ -1,4 +1,4 @@
-import React , { useState } from 'react'
+import React  from 'react'
 import AboutUs from "../../components/AboutUs/AboutUs";
 import BlogArticles from "../../components/BlogArticles/BlogArticles";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
@@ -74,8 +74,7 @@ const HomePage = () => {
                           to="/events"
                           className="viewallbutton"
                           style={{ textDecoration: "none", color: "white"}}
-                        >
-                          View All The Events<span></span>
+                        >View All The Events<span></span>
                         </Link>
                       </a>
                     </div>

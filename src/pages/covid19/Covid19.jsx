@@ -7,7 +7,7 @@ import {
     Link } from "react-router-dom";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import ImageSlider from '../../components/ImageSlider/ImageSlider';
-import { SliderData } from '../../components/ImageSlider/SliderData';
+// import { SliderData } from '../../components/ImageSlider/SliderData';
 
 class Covid19 extends Component {
     render() {
@@ -88,19 +88,22 @@ class Covid19 extends Component {
                                                             <strong>Ward 165:</strong> Raghavendra Colony – 85 households
                                                         </li>
                                                         <li>
-                                                            <strong>Ward 165:</strong> Papaiah Garden – 100 households
+                                                            <strong>Ward 165:</strong> Papaiah Garden – 300 households
+                                                        </li>
+                                                        <li>
+                                                            <strong>Ward 165:</strong> Yellappa Garden – 500 households
                                                         </li>
                                                         <li>
                                                             <strong>Ward 166:</strong> AK Colony – 500 households
                                                         </li>
                                                         <li>
-                                                            <strong>Ward 167:</strong> Byrappa and RK Block – 1000 households
-                                                        </li>
-                                                        <li>
-                                                            <strong>Ward 180:</strong> Yarab Nagar – 8000 households
+                                                            <strong>Ward 180:</strong> Yarab Nagar - 8000 Households
                                                         </li>
                                                         <li>
                                                             <strong>Ward 183:</strong> Kakatiya Nagar – 500 households
+                                                        </li>
+                                                        <li>
+                                                            <strong>Ward 183:</strong> Sri Ramachandra Pura – 500 households
                                                         </li>
                                                     </ul>
                                                 </p>
