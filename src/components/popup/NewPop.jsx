@@ -13,7 +13,7 @@ function NewPop() {
   
  
   let val = 6;
-  axios.get('http://ketto.org/api/fundraisers/westandtogether-oxygen-support-for-10k-vulnerable-families/raised?currency=INR')
+  axios.get('https://ketto.org/api/fundraisers/westandtogether-oxygen-support-for-10k-vulnerable-families/raised?currency=INR')
     .then(res => {
       console.clear();
       console.log("success")
