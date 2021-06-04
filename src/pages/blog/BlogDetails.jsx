@@ -18,7 +18,7 @@ function BlogDetails() {
         <section>
           <div class="block no-padding aboutpaddingnotreqd">
             <div class="pg-tp-bg">
-              <img src={require("../aboutus/AboutUs-Main-3.jpg")} />
+              <img src={require("../aboutus/AboutUs-Main-3.jpg")} alt="AboutUs_img"/>
             </div>
           </div>
         </section>
