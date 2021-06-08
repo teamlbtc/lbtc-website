@@ -8,7 +8,7 @@ import qs from 'qs';
 
 function NewPop() {
   const [Buttonpopup, setButtonpopup] = useState(true);
-  const [raisedval, setraisedval] = useState(328312);
+  const [raisedval, setraisedval] = useState(1387553);
   const [raisedper, setraisedper] = useState(6);
   
  
@@ -20,7 +20,7 @@ function NewPop() {
       if(res.error === "false")
       {
         setraisedval(res.data.raised.raised)
-        val = Number(((raisedval/6525000)*100).toFixed(1));
+        val = Number(((raisedval/3700000)*100).toFixed(1));
         setraisedper(val)
       }
     })
@@ -28,7 +28,7 @@ function NewPop() {
       // console.clear();
       console.log(err)
       console.log("error")
-      val = Number(((raisedval/6525000)*100).toFixed(1));
+      val = Number(((raisedval/3700000)*100).toFixed(1));
       setraisedper(val)
     })
   
@@ -50,7 +50,7 @@ function NewPop() {
           <br /> */}
           <br />
           <div class="bar">
-            <h5>₹{raisedval.toLocaleString('en-IN')} raised of ₹65,25,000 goal </h5>
+            <h5>₹{raisedval.toLocaleString('en-IN')} raised of ₹37,00,000 goal </h5>
             <Progress 
               strokeWidth={8}
               percent={raisedper}
