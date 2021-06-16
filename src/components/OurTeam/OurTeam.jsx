@@ -77,6 +77,22 @@ function OurTeam(){
       //twitterlink: "mailto:karthik@letsbethechange.in",
       photo: VinayM
     },
+    {
+      name: "Adithya Krishna",
+      designation: "Intern, Tech",
+      facebooklink: "https://www.instagram.com/adiiikris/",
+      linkedinlink: "https://www.linkedin.com/in/adiiikris/",
+      //twitterlink: "mailto:adithya.krishna@letsbethechange.in",
+      photo: Adithya
+    },
+    {
+      name: "Karthik Ravishankar",
+      designation: "Intern, Tech",
+      facebooklink: "https://www.instagram.com/karthikravishankar/",
+      linkedinlink: "https://www.linkedin.com/in/uravgkarthik/",
+      //twitterlink: "mailto:karthik@letsbethechange.in",
+      photo: Karthik 
+    }
   ]
   const governingdata =[
     {
