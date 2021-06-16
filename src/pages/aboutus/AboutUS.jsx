@@ -168,6 +168,7 @@ const AboutUS = () => {
                       <br />
                       <h2 itemprop="headline">Our Current Work </h2>
                       <p itemprop="description">
+                        <strong>Bengaluru Veeraru:</strong>
                         <ul>
                           <li>
                             Building a platform called “Bengaluru Veeraru” where
@@ -236,6 +237,38 @@ const AboutUS = () => {
                             </ul>
                           </ul>
                         </ul>
+                        <strong>O2 Support for 10k+ Vulnerable Families:</strong>
+                        <ul>
+                          <li>
+                          The aim of the project is to provide emergency oxygen support for all the 10k+ Vulnerable Families in all the urban poor settlements mentioned below, where we are conducting 'Covid19 Relief Project' from the past 1 year in association with Azim Premji Foundation (APF), BBMP & Govt. of Karnataka.
+                          </li>
+                          <li>
+                          Due to severity of the 2nd wave of Covid-19, we had to channel funds from our other projects. We have presently spent Rs. 2235864, in which we have already procured the following materials:
+                          </li>
+                          <ul>
+                            <li>
+                            30 Nos - 47 liter cylinders
+                            </li>
+                            <li>
+                            11 Nos - 10 liter cylinders
+                            </li>
+                            <li>
+                            3 Nos - 5 liter oxygen concentrator (Medical Grade)
+                            </li>
+                            <li>
+                            2 Nos - 7 liter oxygen concentrator (Home Grade)
+                            </li>
+                            <li>
+                            40 Nos - Regulators kit
+                            </li>
+                            <li>
+                            30 Nos - Safety equipment for team
+                            </li>
+                          </ul>
+                          <li>
+                          Financial Bills (8th June 2021) are attached <a href="https://drive.google.com/file/d/1rcn9UtUg_U3gFHvTE_KRav3NndJRbbiQ/view?usp=sharing" target="_blank">here</a> 
+                          </li>
+                        </ul>
                       </p>
 
                       <img
@@ -270,6 +303,21 @@ const AboutUS = () => {
                       <img
                         src={require("../aboutus/What-Do-WeDo.jpg")}
                         alt="abt-pg-img1-2.jpg"
+                        itemprop="image"
+                      />
+                      <img
+                        src={require("../../components/OurActivities/Oxygen.webp")}
+                        alt="Oxygen.webp"
+                        itemprop="image"
+                      />
+                      <img
+                        src={require("../../components/OurActivities/Oxygen2.webp")}
+                        alt="Oxygen2.webp"
+                        itemprop="image"
+                      />
+                      <img
+                        src={require("../../components/OurActivities/Oxygen3.webp")}
+                        alt="Oxygen3.webp"
                         itemprop="image"
                       />
                     </div>

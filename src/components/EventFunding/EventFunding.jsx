@@ -140,61 +140,12 @@ function EventFunding() {
                       <span className="cus-amt"></span>
                       <div className="progress">
                         <div className="progress-bar thm-bg wdth40">
-                          <span>37.5%</span>
+                          <span>34.5%</span>
                         </div>
                       </div>
                       <a
                         className="thm-btn"
                         href="https://rzp.io/l/BVProject"
-                        title=""
-                        itemprop="url"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ textDecoration: "none" }}
-                      >
-                        Donate Now<span></span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6 col-lg-3">
-                  <div className="cus-bx3">
-                    <div className="cus-thmb">
-                      <a
-                        href="https://rzp.io/l/lbtcdonate4needy"
-                        title=""
-                        itemprop="url"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <img
-                          src={require("../EventFunding/Fundraising/4X.png")}
-                          alt="Fund-4.jpg"
-                          itemprop="image"
-                        />
-                      </a>
-                    </div>
-                    <div className="cus-inf3">
-                      <h4 itemprop="headline">
-                        <a
-                          href="https://rzp.io/l/lbtcdonate4needy"
-                          title=""
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Covid-19
-                          <br /> Relief Work <br />
-                        </a>
-                      </h4>
-                      <span className="cus-amt"></span>
-                      <div className="progress">
-                        <div className="progress-bar thm-bg wdth10">
-                          <span>10.5%</span>
-                        </div>
-                      </div>
-                      <a
-                        className="thm-btn"
-                        href="https://rzp.io/l/lbtcdonate4needy"
                         title=""
                         itemprop="url"
                         target="_blank"
@@ -217,7 +168,7 @@ function EventFunding() {
                         rel="noopener noreferrer"
                       >
                         <img
-                          src={require("../EventFunding/new.webp")}
+                          src={require("../EventFunding/new.png")}
                           alt="Fund-4.jpg"
                           itemprop="image"
                         />
@@ -230,7 +181,7 @@ function EventFunding() {
                           title=""
                           target="_blank"
                           rel="noopener noreferrer"
-                        >
+                          >
                           #WeStandTogether
                           <br /> Oxygen Support for 10K+ Vulnerable Families <br />
                         </a>

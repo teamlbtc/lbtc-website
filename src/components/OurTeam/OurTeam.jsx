@@ -21,6 +21,10 @@ import Tenth from "../../assets/images/Our Team/Bhuvan.jpg";
 import YashVikas from "../../assets/images/Our Team/YashVikas.png";
 import Eleventh from "../../assets/images/Our Team/Niranjan.jpg";
 import Twelveth from "../../assets/images/Our Team/Sharan.jpg";
+import Anuja from "../../assets/images/Our Team/Anuja.jpg"
+import Shashini from "../../assets/images/Our Team/Shashini.jpg"
+import Teja from "../../assets/images/Our Team/Teja.jpg"
+import VinayM from "../../assets/images/Our Team/VinayM.png"
 function OurTeam(){
   
 
@@ -34,14 +38,6 @@ function OurTeam(){
       photo: First
     },
     {
-      name:"Avinash N Shastry",
-      designation: "Manager, Operations",
-      facebooklink: "https://www.instagram.com/avinaasha.shastry/",
-      //linkedinlink: "#",
-      twitterlink: "mailto:avinash@letsbethechange.in",
-      photo: Avinash
-    },
-    {
       name:"Hemanth R Shankar",
       designation: "Intern, Operations",
       facebooklink: "https://www.instagram.com/avinoxxofficial/",
@@ -50,21 +46,37 @@ function OurTeam(){
       photo: Hemanth
     },
     {
-      name: "Adithya Krishna",
-      designation: "Intern, Tech",
-      facebooklink: "https://www.instagram.com/adiiikris/",
-      linkedinlink: "https://www.linkedin.com/in/adiiikris/",
-      //twitterlink: "mailto:adithya.krishna@letsbethechange.in",
-      photo: Adithya
+      name: "Anuja T K",
+      designation: "Jr Associate, Operations",
+      // facebooklink: "",
+      linkedinlink: "https://www.linkedin.com/in/anu-anuja-/",
+      // twitterlink: "https://twitter.com/i_anu_14?s=08",
+      photo: Anuja
     },
     {
-      name: "Karthik Ravishankar",
-      designation: "Intern, Tech",
-      facebooklink: "https://www.instagram.com/karthikravishankar/",
-      linkedinlink: "https://www.linkedin.com/in/uravgkarthik/",
+      name: "Teja Jangam",
+      designation: "Jr Associate, Operations",
+      facebooklink: "https://www.instagram.com/_tejaraj_/?r=nametag",
+      linkedinlink: "https://www.linkedin.com/in/teja-jangam-0a35331ba",
       //twitterlink: "mailto:karthik@letsbethechange.in",
-      photo: Karthik 
-    }
+      photo: Teja
+    },
+    {
+      name: "Shashini H S",
+      designation: "Sr Associate, Operations",
+      // facebooklink: "",
+      linkedinlink: "https://www.linkedin.com/in/shashini-h-s-513579132/",
+      //twitterlink: "mailto:karthik@letsbethechange.in",
+      photo: Shashini
+    },
+    {
+      name: "Vinay M",
+      designation: "Intern, Tech",
+      // facebooklink: "",
+      linkedinlink: "https://www.linkedin.com/in/vinay-m-0451201a1/",
+      //twitterlink: "mailto:karthik@letsbethechange.in",
+      photo: VinayM
+    },
   ]
   const governingdata =[
     {
@@ -154,6 +166,14 @@ function OurTeam(){
       linkedinlink: "https://www.linkedin.com/in/srinidhi-chandra-4aa42515b/",
       //twitterlink: "mailto:srinidhi@letsbethechange.in",
       photo: Srinidhi
+    },
+    {
+      name:"Avinash N Shastry",
+      designation: "Manager, Operations",
+      facebooklink: "https://www.instagram.com/avinaasha.shastry/",
+      //linkedinlink: "#",
+      twitterlink: "mailto:avinash@letsbethechange.in",
+      photo: Avinash
     }
   ]
   const youthteamdata = [
