@@ -8,6 +8,7 @@ import Sixth from "../PartnersContainer/PartnerImages/lbtc-bbn.png";
 import Seventh from "../PartnersContainer/PartnerImages/lbtc-jyoti.png";
 import Eighth from "../PartnersContainer/PartnerImages/lbtc-infosys.png";
 import Ninth from "../PartnersContainer/PartnerImages/lbtc-st-jhones.png";
+import Tenth from "../PartnersContainer/PartnerImages/azim-prem.png"
 import { Link } from "react-router-dom";
 
 const PartnersContainer = () => {
@@ -38,6 +39,9 @@ const PartnersContainer = () => {
     },
     {
       imgSrc: Ninth,
+    },
+    {
+      imgSrc: Tenth,
     },
   ];
   return (

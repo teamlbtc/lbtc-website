@@ -205,8 +205,17 @@ const ContactUS = () => {
                           <i className="fa fa-home"></i>{" "}
                         </span>
                         <a href="https://www.google.com/maps?ll=12.928404,77.528416&z=12&t=m&hl=en-US&gl=IN&mapclient=embed&saddr&daddr=Let%27s+Be+The+Change,+25th+Main+Road,+1062,+15th+Cross+Rd,+Banashankari+Stage+II,+Bengaluru,+Karnataka+560070&dirflg=d">
-                          No. 1062, 15th Cross Rd, 25th Main Rd, BSK II Stage,
+                          <strong>Main : </strong>No. 1062, 15th Cross Rd, 25th Main Rd, BSK II Stage,
                           Bengaluru-70
+                        </a>
+                      </p>
+                      <br></br>
+                      <p itemprop="description">
+                        <span>
+                          <i className="fa fa-home"></i>{" "}
+                        </span>
+                        <a href="https://goo.gl/maps/HhhVtD3ZP7QNRuze9">
+                          <strong>Ittamadu Branch : </strong>95, 3nd, Main Rd, Anjaneya Nagar, Ittamadu, Banashankari 3rd Stage, Banashankari, Bengaluru, Karnataka 560085
                         </a>
                       </p>
                       <ul class="cnt-inf-lst">
@@ -280,6 +289,7 @@ const ContactUS = () => {
                     </div>
                     <div class="cnt-mp" id="cnt-mp"></div>
                   </div>
+                  
                 </div>
               </div>
               {/* <div class="cnt-fq text-center">

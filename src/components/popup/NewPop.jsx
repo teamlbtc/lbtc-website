@@ -1,36 +1,46 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./popup.css";
 import "reactjs-popup/dist/index.css";
 import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
-import axios from 'axios';
-import qs from 'qs';
+import {firestore} from '../../services/firebase'
+
 
 function NewPop() {
   const [Buttonpopup, setButtonpopup] = useState(true);
-  const [raisedval, setraisedval] = useState(1387553);
   const [raisedper, setraisedper] = useState(6);
+  const [raised, setraised] = useState(1387553);
   
  
-  let val = 6;
-  axios.get('https://ketto.org/api/fundraisers/westandtogether-oxygen-support-for-10k-vulnerable-families/raised?currency=INR')
-    .then(res => {
-      console.clear();
-      console.log("success")
-      if(res.error === "false")
-      {
-        setraisedval(res.data.raised.raised)
-        val = Number(((raisedval/3700000)*100).toFixed(1));
-        setraisedper(val)
+
+    useEffect(() => {
+      let isMounted = true;
+      const fetchData = async() => {
+        await firestore.collection("/DonationValue").onSnapshot(async(snapshot) => {
+          if(isMounted){
+            setraised(0)
+          }
+          snapshot.forEach((snap) => {
+            if(snap.exists){
+              if(isMounted){
+                let tempData = snap.data();
+                let finalTemp = tempData.value
+                setraised(finalTemp)
+                let val = Number(((raised/3700000)*100).toFixed(1));
+                setraisedper(val)
+                console.log("success")
+              }
+            }
+          })
+        })
       }
-    })
-    .catch(err => {
-      // console.clear();
-      console.log(err)
-      console.log("error")
-      val = Number(((raisedval/3700000)*100).toFixed(1));
-      setraisedper(val)
-    })
+      fetchData();
+  
+      return () => {
+        isMounted = false;
+      }
+    },[])
+    
   
 
   return Buttonpopup ? (
@@ -50,7 +60,7 @@ function NewPop() {
           <br /> */}
           <br />
           <div class="bar">
-            <h5>₹{raisedval.toLocaleString('en-IN')} raised of ₹37,00,000 goal </h5>
+            <h5>₹{raised.toLocaleString('en-IN')} raised of ₹37,00,000 goal </h5>
             <Progress 
               strokeWidth={8}
               percent={raisedper}

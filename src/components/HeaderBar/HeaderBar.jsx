@@ -20,7 +20,14 @@ function HeaderBar() {
               <div className="col-md-6 col-sm-12 col-lg-6">
                 <p itemprop="description">
                   <i className="flaticon-error thm-clr"></i>
-                  <strong>Crisis Watch:</strong> Covid-19 In India
+                  <strong>COVID-19 Resources : </strong> 
+                  <a 
+                        href="https://covid-relief.letsbethechange.in"
+                        title=""
+                        itemprop="url"
+                        target="_blank"
+                        rel="noopener noreferrer">Click here</a>
+
                 </p>
                 
               </div>

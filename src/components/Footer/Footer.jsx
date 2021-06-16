@@ -47,6 +47,41 @@ function Footer() {
                       </a>
                     </li>
                   </ul>
+                  <div class="cnt-scl">
+                    <a
+                          class="facebook"
+                          href="https://www.facebook.com/TeamLBTC/"
+                          title="Facebook"
+                          itemprop="url"
+                          target="_blank"
+                          without
+                          rel="noopener noreferrer"
+                        >
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                        <a
+                          class="twitter"
+                          href="https://twitter.com/TeamLBTC"
+                          title="Twitter"
+                          itemprop="url"
+                          target="_blank"
+                          without
+                          rel="noopener noreferrer"
+                        >
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                        <a
+                          class="instagram"
+                          href="https://www.instagram.com/team_lbtc/"
+                          title="Instagram"
+                          itemprop="url"
+                          target="_blank"
+                          without
+                          rel="noopener noreferrer"
+                        >
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-lg-4">
