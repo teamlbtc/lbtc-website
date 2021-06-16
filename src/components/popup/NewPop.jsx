@@ -63,7 +63,7 @@ function NewPop() {
             <h5>₹{raised.toLocaleString('en-IN')} raised of ₹37,00,000 goal </h5>
             <Progress 
               strokeWidth={8}
-              percent={raisedper}
+              percent={Number(((raised/3700000)*100).toFixed(1))}
               theme={{
                 active: {
                   color: '#2daf5a'
