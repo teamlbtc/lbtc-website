@@ -132,7 +132,7 @@ const SignUpForm = () => {
                                                         >
                                                             <option value="Select a Option">Select a Option</option>
                                                             <option value="Volunteer">Volunteer</option>
-                                                            <option value="Partner">Partner</option>
+                                                            <option value="Partner">Partner/Supporter</option>
                                                             <option value="Report a Problem">Report a Problem</option>
                                                         </select>
                                                     </div>

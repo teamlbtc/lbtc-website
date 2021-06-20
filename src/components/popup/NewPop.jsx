@@ -9,7 +9,7 @@ import {firestore} from '../../services/firebase'
 function NewPop() {
   const [Buttonpopup, setButtonpopup] = useState(true);
   const [raisedper, setraisedper] = useState(6);
-  const [raised, setraised] = useState(1387553);
+  const [raised, setraised] = useState(0);
   
  
 

@@ -26,7 +26,7 @@ function HeaderBar() {
                         title=""
                         itemprop="url"
                         target="_blank"
-                        rel="noopener noreferrer">Click here</a>
+                        rel="noopener noreferrer">Know More</a>
 
                 </p>
                 
