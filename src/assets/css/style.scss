@@ -559,6 +559,11 @@ nav > div ul li,
   background-color: #516ae8;
   border-color: #516ae8;
 }
+.cnt-sclx > a.facebook {
+  background-color: #fff;
+  border-color: #516ae8;
+  border-width: medium
+}
 .twitter,
 .twitter-hvr:before,
 .tem-scl > a.twitter,
@@ -568,6 +573,12 @@ nav > div ul li,
   background-color: #4fbbff;
   border-color: #4fbbff;
 }
+.cnt-sclx > a.twitter{
+  background-color: #fff;
+  border-color: #4fbbff;
+  border-width: medium
+}
+
 .google,
 .google-hvr:before,
 .tem-scl > a.google,
@@ -621,6 +632,11 @@ nav > div ul li,
 .athr-scl > a.instagram {
   background-color: #e4405f;
   border-color: #e4405f;
+}
+.cnt-sclx > a.instagram {
+  background-color: #fff;
+  border-color: #e4405f;
+  border-width: medium
 }
 .facebook:hover,
 .facebook:focus,
@@ -5012,7 +5028,18 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
   height: 3.4375rem;
   margin-top: 0.625rem;
 }
+.cnt-sclx > a {
+  border: 0.125rem solid;
+  font-size: 1.125rem;
+  display: inline-block;
+  text-align: center;
+  width: 3.4375rem;
+  line-height: 3.4375rem;
+  height: 3.4375rem;
+  margin-top: 0.625rem;
+}
 .cnt-scl > a + a {margin-left: 0.5rem;}
+.cnt-sclx > a + a {margin-left: 0.5rem;}
 .thm-layer .cnt-inf-lst > li {color: #fff;}
 .cnt-inf-lst > li a:hover, 
 .cnt-inf-lst > li a:focus {color: #333;}

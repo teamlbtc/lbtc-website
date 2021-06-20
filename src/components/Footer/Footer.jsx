@@ -47,7 +47,7 @@ function Footer() {
                       </a>
                     </li>
                   </ul>
-                  <div class="cnt-scl">
+                  <div class="cnt-sclx">
                     <a
                           class="facebook"
                           href="https://www.facebook.com/TeamLBTC/"
