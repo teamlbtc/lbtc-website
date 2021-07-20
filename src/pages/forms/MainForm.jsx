@@ -5,22 +5,23 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import "../forms/mainform.min.scss";
+import { FooterMain } from "../../components/FooterMain/FooterMain";
 
-  const EventDetails8 = () => {
-    React.useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
+const EventDetails8 = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-    return (
-      <main>
-        <HeaderBar></HeaderBar>
-        {/* <ResponsiveHeader></ResponsiveHeader> */}
-        <MenuBarX></MenuBarX>
-        <MenuBar></MenuBar>
-        <div className="container formpaddingneeded">
-          <div className="row"></div>
-        </div>
-        {/* <div className="containerx">
+  return (
+    <main>
+      <HeaderBar></HeaderBar>
+      {/* <ResponsiveHeader></ResponsiveHeader> */}
+      <MenuBarX></MenuBarX>
+      <MenuBar></MenuBar>
+      <div className="container formpaddingneeded">
+        <div className="row"></div>
+      </div>
+      {/* <div className="containerx">
             <div className="container">
                 <div className="row">
                     
@@ -28,11 +29,11 @@ import "../forms/mainform.min.scss";
             </div>
         </div> */}
 
-        <JotformEmbed src="https://form.jotform.com/letsbethechange.india/signup" />
+      <JotformEmbed src="https://form.jotform.com/letsbethechange.india/signup" />
 
-        <Footer></Footer>
-      </main>
-    );
-  };
+      <FooterMain></FooterMain>
+    </main>
+  );
+};
 
 export default EventDetails8;

@@ -6,12 +6,12 @@ import "../../components/HeaderBar/headerbar.min.scss";
 import { Link } from "react-router-dom";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import "../contactus/contactus.min.scss";
-import { firestore } from '../../services/firebase'
-import {ToastContainer,toast} from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css';
+import { firestore } from "../../services/firebase";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { FooterMain } from "../../components/FooterMain/FooterMain";
 
 const ContactUS = () => {
-
   const [FirstName, setFirstName] = useState("");
   const [LastName, setLastName] = useState("");
   const [Email, setEmail] = useState("");
@@ -24,40 +24,43 @@ const ContactUS = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    await firestore.collection("ContactUs").add({
-      FirstName: FirstName,
-      LastName: LastName,
-      Email: Email,
-      Subject: Subject,
-      Message: Message
-    }).then(() => {
-      toast.success('Thank You! We\'ll Get Back To You Soon', {
-        position:"bottom-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
+    await firestore
+      .collection("ContactUs")
+      .add({
+        FirstName: FirstName,
+        LastName: LastName,
+        Email: Email,
+        Subject: Subject,
+        Message: Message,
+      })
+      .then(() => {
+        toast.success("Thank You! We'll Get Back To You Soon", {
+          position: "bottom-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+        setFirstName("");
+        setLastName("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
+      })
+      .catch((error) => {
+        toast.error("Error! ", {
+          position: "bottom-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
       });
-      setFirstName("");
-      setLastName("");
-      setEmail("");
-      setSubject("");
-      setMessage("");
-    }).catch((error) => {
-      toast.error('Error! ', {
-        position: "bottom-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-      });
-    })
-
-  }
+  };
 
   return (
     <div classNameName="App">
@@ -186,7 +189,6 @@ const ContactUS = () => {
                               pauseOnHover
                             />
                           </div>
-                          
                         </div>
                       </form>
                     </div>
@@ -205,8 +207,8 @@ const ContactUS = () => {
                           <i className="fa fa-home"></i>{" "}
                         </span>
                         <a href="https://www.google.com/maps?ll=12.928404,77.528416&z=12&t=m&hl=en-US&gl=IN&mapclient=embed&saddr&daddr=Let%27s+Be+The+Change,+25th+Main+Road,+1062,+15th+Cross+Rd,+Banashankari+Stage+II,+Bengaluru,+Karnataka+560070&dirflg=d">
-                          <strong>Main : </strong>No. 1062, 15th Cross Rd, 25th Main Rd, BSK II Stage,
-                          Bengaluru-70
+                          <strong>Main : </strong>No. 1062, 15th Cross Rd, 25th
+                          Main Rd, BSK II Stage, Bengaluru-70
                         </a>
                       </p>
                       <br></br>
@@ -215,7 +217,9 @@ const ContactUS = () => {
                           <i className="fa fa-home"></i>{" "}
                         </span>
                         <a href="https://goo.gl/maps/HhhVtD3ZP7QNRuze9">
-                          <strong>Ittamadu Branch : </strong>95, 3nd, Main Rd, Anjaneya Nagar, Ittamadu, Banashankari 3rd Stage, Banashankari, Bengaluru, Karnataka 560085
+                          <strong>Ittamadu Branch : </strong>95, 3nd, Main Rd,
+                          Anjaneya Nagar, Ittamadu, Banashankari 3rd Stage,
+                          Banashankari, Bengaluru, Karnataka 560085
                         </a>
                       </p>
                       <ul class="cnt-inf-lst">
@@ -289,7 +293,6 @@ const ContactUS = () => {
                     </div>
                     <div class="cnt-mp" id="cnt-mp"></div>
                   </div>
-                  
                 </div>
               </div>
               {/* <div class="cnt-fq text-center">
@@ -303,7 +306,7 @@ const ContactUS = () => {
             </div>
           </div>
         </section>
-        <Footer></Footer>
+        <FooterMain></FooterMain>
       </main>
     </div>
   );

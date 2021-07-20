@@ -1,4 +1,4 @@
-import React  from 'react'
+import React from "react";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import BlogArticles from "../../components/BlogArticles/BlogArticles";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
@@ -14,22 +14,19 @@ import { Link } from "react-router-dom";
 import "../homepage/homepage.min.scss";
 import PartnersContainer from "../../components/PartnersContainer/PartnersContainer.component";
 import NewPop from "../../components/popup/NewPop";
-import 'reactjs-popup/dist/index.css';
-
+import "reactjs-popup/dist/index.css";
+import { FooterMain } from "../../components/FooterMain/FooterMain";
+import { TiyIndia } from "../../components/TIYIndia/TiyIndia";
 
 const HomePage = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  
-
   return (
     <div className="App">
       <main>
-      
-        <NewPop class="top" >
-        </NewPop> 
+        <NewPop class="top"></NewPop>
         <HeaderBar></HeaderBar> {/* Headers Component */}
         <MenuBar></MenuBar> {/* MenuBar Component */}
         <StickyHeader></StickyHeader> {/* StickyHeader Component */}
@@ -37,9 +34,9 @@ const HomePage = () => {
         <MenuBarX></MenuBarX>
         <LbtcCarousel></LbtcCarousel>
         {/* Home Page First Section Component */}
-        <AboutUs></AboutUs>{/* About Us Component */}
+        <AboutUs></AboutUs>
+        {/* About Us Component */}
         <EventFunding></EventFunding> {/* Event Funds Section Component */}
-        
         <section>
           <div className="block remove-gap">
             <div
@@ -73,8 +70,9 @@ const HomePage = () => {
                         <Link
                           to="/events"
                           className="viewallbutton"
-                          style={{ textDecoration: "none", color: "white"}}
-                        >View All The Events<span></span>
+                          style={{ textDecoration: "none", color: "white" }}
+                        >
+                          View All The Events<span></span>
                         </Link>
                       </a>
                     </div>
@@ -84,12 +82,13 @@ const HomePage = () => {
             </div>
           </div>
         </section>
+        <TiyIndia></TiyIndia>
         {/*Owl Carousel Goes Here */}
         {/*Donate Section */}
         <OurActivities></OurActivities> {/* Our Activities Component */}
         <PartnersContainer></PartnersContainer>
         <BlogArticles></BlogArticles> {/* News Articles Component */}
-        <Footer></Footer> {/* Footer Component */}
+        <FooterMain></FooterMain>
       </main>
     </div>
   );
