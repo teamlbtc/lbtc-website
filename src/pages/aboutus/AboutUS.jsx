@@ -9,6 +9,7 @@ import YoutubeVideo from "../../components/YoutubeVideo/YoutubeVideo";
 import { Link } from "react-router-dom";
 import FeaturedOn from "./FeaturedOn/FeaturedOn";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
+import { FooterMain } from "../../components/FooterMain/FooterMain";
 // import "../../components/MenuBar/menubarwhitetext.min.scss";
 
 const AboutUS = () => {
@@ -48,10 +49,7 @@ const AboutUS = () => {
         </div>
       </div>
       <section>
-        <div
-          className="block blockx"
-          style={{ padding: "1rem" }}
-        >
+        <div className="block blockx" style={{ padding: "1rem" }}>
           <div className="container">
             <div className="abt-pg-wrp">
               <h2 itemprop="headline">About Us</h2>
@@ -237,36 +235,45 @@ const AboutUS = () => {
                             </ul>
                           </ul>
                         </ul>
-                        <strong>O2 Support for 10k+ Vulnerable Families:</strong>
+                        <strong>
+                          O2 Support for 10k+ Vulnerable Families:
+                        </strong>
                         <ul>
                           <li>
-                          The aim of the project is to provide emergency oxygen support for all the 10k+ Vulnerable Families in all the urban poor settlements mentioned below, where we are conducting 'Covid19 Relief Project' from the past 1 year in association with Azim Premji Foundation (APF), BBMP & Govt. of Karnataka.
+                            The aim of the project is to provide emergency
+                            oxygen support for all the 10k+ Vulnerable Families
+                            in all the urban poor settlements mentioned below,
+                            where we are conducting 'Covid19 Relief Project'
+                            from the past 1 year in association with Azim Premji
+                            Foundation (APF), BBMP & Govt. of Karnataka.
                           </li>
                           <li>
-                          Due to severity of the 2nd wave of Covid-19, we had to channel funds from our other projects. We have presently spent Rs. 2235864, in which we have already procured the following materials:
+                            Due to severity of the 2nd wave of Covid-19, we had
+                            to channel funds from our other projects. We have
+                            presently spent Rs. 2235864, in which we have
+                            already procured the following materials:
                           </li>
                           <ul>
+                            <li>30 Nos - 47 liter cylinders</li>
+                            <li>11 Nos - 10 liter cylinders</li>
                             <li>
-                            30 Nos - 47 liter cylinders
+                              3 Nos - 5 liter oxygen concentrator (Medical
+                              Grade)
                             </li>
                             <li>
-                            11 Nos - 10 liter cylinders
+                              2 Nos - 7 liter oxygen concentrator (Home Grade)
                             </li>
-                            <li>
-                            3 Nos - 5 liter oxygen concentrator (Medical Grade)
-                            </li>
-                            <li>
-                            2 Nos - 7 liter oxygen concentrator (Home Grade)
-                            </li>
-                            <li>
-                            40 Nos - Regulators kit
-                            </li>
-                            <li>
-                            30 Nos - Safety equipment for team
-                            </li>
+                            <li>40 Nos - Regulators kit</li>
+                            <li>30 Nos - Safety equipment for team</li>
                           </ul>
                           <li>
-                          Financial Bills (8th June 2021) are attached <a href="https://drive.google.com/file/d/1rcn9UtUg_U3gFHvTE_KRav3NndJRbbiQ/view?usp=sharing" target="_blank">here</a> 
+                            Financial Bills (8th June 2021) are attached{" "}
+                            <a
+                              href="https://drive.google.com/file/d/1rcn9UtUg_U3gFHvTE_KRav3NndJRbbiQ/view?usp=sharing"
+                              target="_blank"
+                            >
+                              here
+                            </a>
                           </li>
                         </ul>
                       </p>
@@ -394,7 +401,7 @@ const AboutUS = () => {
           </div>
         </div>
       </section>
-      <Footer></Footer> {/* Footer Component */}
+      <FooterMain></FooterMain> {/* Footer Component */}
     </main>
   );
 };

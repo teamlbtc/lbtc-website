@@ -6,6 +6,7 @@ import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import "../blog/blog.min.scss";
 import { Link } from "react-router-dom";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
+import { FooterMain } from "../../components/FooterMain/FooterMain";
 
 const Blog = () => {
   React.useEffect(() => {
@@ -58,7 +59,6 @@ const Blog = () => {
               <div class="row">
                 <div class="col-md-8 col-sm-12 col-lg-8">
                   <div class="blg-wrp style4 remove-ext6">
-
                     <div class="blg-bx lst">
                       <div class="blg-thmb">
                         <Link to="/blog/blog-9">
@@ -110,7 +110,10 @@ const Blog = () => {
                           </li>
                         </ul>
                         <p itemprop="description">
-                          The world has been in the gripping claws of the COVID-19 virus for quite a while now. This has made a major impact in the lives of every human on Earth and India is one of the chief victims at this time.
+                          The world has been in the gripping claws of the
+                          COVID-19 virus for quite a while now. This has made a
+                          major impact in the lives of every human on Earth and
+                          India is one of the chief victims at this time.
                         </p>
                       </div>
                     </div>
@@ -151,7 +154,8 @@ const Blog = () => {
                         </span>
                         <h4 itemprop="headline">
                           <Link to="/blog/blog-8">
-                            ಬದಲಾಗಿ ಬದಲಾಗಿಸೋಣ,  ಸ್ವಚ್ಛ ಬೆಂಗಳೂರು ಕನಸನ್ನು ನನಸು ಮಾಡೋಣ!
+                            ಬದಲಾಗಿ ಬದಲಾಗಿಸೋಣ, ಸ್ವಚ್ಛ ಬೆಂಗಳೂರು ಕನಸನ್ನು ನನಸು
+                            ಮಾಡೋಣ!
                           </Link>
                         </h4>
                         <ul class="pst-mta">
@@ -166,7 +170,9 @@ const Blog = () => {
                           </li>
                         </ul>
                         <p itemprop="description">
-                          ಬದಲಾಗಿ ಬದಲಾಗಿಸೋಣ ಸಂಸ್ಥೆಯು 2013ರಲ್ಲಿ ಸ್ವಚ್ಛತೆ ಹಾಗೂ ಪರಿಸರ ಸಂರಕ್ಷಣೆಯ ಕುರಿತು ಜಾಗೃತಿ ಮೂಡಿಸಿ, ಅವಶ್ಯ ಬದಲಾವಣೆಗಳನ್ನು ಮೂಡಿಸುವ ಸಲುವಾಗಿ ಪ್ರಾರಂಭವಾಯಿತು.
+                          ಬದಲಾಗಿ ಬದಲಾಗಿಸೋಣ ಸಂಸ್ಥೆಯು 2013ರಲ್ಲಿ ಸ್ವಚ್ಛತೆ ಹಾಗೂ
+                          ಪರಿಸರ ಸಂರಕ್ಷಣೆಯ ಕುರಿತು ಜಾಗೃತಿ ಮೂಡಿಸಿ, ಅವಶ್ಯ
+                          ಬದಲಾವಣೆಗಳನ್ನು ಮೂಡಿಸುವ ಸಲುವಾಗಿ ಪ್ರಾರಂಭವಾಯಿತು.
                         </p>
                       </div>
                     </div>
@@ -823,9 +829,7 @@ const Blog = () => {
             </div>
           </div>
         </section>
-
-        <Footer></Footer> {/* Footer Component */}
-
+        <FooterMain></FooterMain> {/* Footer Component */}
       </main>
     </div>
   );

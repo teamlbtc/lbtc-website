@@ -1,0 +1,94 @@
+.bg-footer {
+  background-color: black;
+  padding: 50px 0 30px;
+}
+.footer-headingx {
+  letter-spacing: 2px;
+}
+.sectionx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerx {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-link a {
+  color: #acacac;
+  line-height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.footer-link a:hover {
+  color: gray;
+}
+
+.contact-info {
+  color: #acacac;
+  font-size: 14px;
+}
+
+.footer-social-icon {
+  font-size: 15px;
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+}
+
+.facebook {
+  background-color: #4e71a8;
+  color: #ffffff;
+}
+
+.twitter {
+  background-color: #55acee;
+  color: #ffffff;
+}
+
+.google {
+  background-color: #d6492f;
+  color: #ffffff;
+}
+
+.apple {
+  background-color: #424041;
+  color: #ffffff;
+}
+
+.footer-alt {
+  color: #acacac;
+}
+
+.footer-heading {
+  position: relative;
+  padding-bottom: 12px;
+  margin-top: 7px;
+}
+
+.footer-heading:after {
+  content: "";
+  width: 25px;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 1px solid black;
+}
+.textcenter {
+  text-align: center;
+}
+
+@media screen and (max-width: 996px) {
+  .containerx {
+    flex-direction: column;
+  }
+}

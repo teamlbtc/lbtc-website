@@ -7,6 +7,7 @@ import Footer from "../../components/Footer/Footer";
 import "../gallery/gallery.min.scss";
 import "../blog/blog.min.scss";
 import { Link } from "react-router-dom";
+import { FooterMain } from "../../components/FooterMain/FooterMain";
 
 const Gallery = () => {
   React.useEffect(() => {
@@ -72,7 +73,10 @@ const Gallery = () => {
                             alt="gal-img2-1.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Covid Relief<br/> Project</h4>
+                          <h4 itemprop="headline">
+                            Covid Relief
+                            <br /> Project
+                          </h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -92,7 +96,9 @@ const Gallery = () => {
                             alt="gal-img2-3.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Kids <br/> Engagement</h4>
+                          <h4 itemprop="headline">
+                            Kids <br /> Engagement
+                          </h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -136,9 +142,7 @@ const Gallery = () => {
                             alt="gal-img2-7.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">
-                            Street Play
-                          </h4>
+                          <h4 itemprop="headline">Street Play</h4>
                         </div>
                       </div>
                       <div class="col-md-12 col-sm-12 col-lg-12">
@@ -172,9 +176,7 @@ const Gallery = () => {
                             alt="gal-img2-10.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">
-                            Awareness Session
-                          </h4>
+                          <h4 itemprop="headline">Awareness Session</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -250,7 +252,7 @@ const Gallery = () => {
           </div>
         </section>
 
-        <Footer></Footer>
+        <FooterMain></FooterMain>
       </main>
     </div>
   );
