@@ -19,6 +19,8 @@ const SignUpForm = () => {
   const [Subject, setSubject] = useState("");
   const [Message, setMessage] = useState("");
 
+  const [idx, setidx] = useState(0);
+
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -38,6 +40,7 @@ const SignUpForm = () => {
     var final = hr + ":" + min + " " + ampm;
     return final;
   }
+
   function getDate() {
     var d = new Date();
     var date = d.getDate();
@@ -47,9 +50,46 @@ const SignUpForm = () => {
     return final;
   }
 
+  function getValue() {
+    const docRef = firestore.collection("FormValue").doc("Contact");
+
+    docRef
+      .get()
+      .then((doc) => {
+        if (doc.exists) {
+          let data = doc.data();
+          let val = data.id;
+          console.log("Document data:", val);
+          setidx(val);
+        } else {
+          // doc.data() will be undefined in this case
+
+          console.log("No such document!");
+        }
+      })
+      .catch(function (error) {
+        console.log("Error getting document:", error);
+      });
+  }
+
+  function setNewValue(newval) {
+    newval = newval + 1;
+    firestore
+      .collection("FormValue")
+      .doc("Contact")
+      .update({
+        id: newval,
+      })
+      .then(() => {
+        console.log("updated!");
+      });
+  }
+
   const handleSubmit = async (event) => {
     var MainTime = getTime();
     var date = getDate();
+    getValue();
+    setNewValue(idx);
     event.preventDefault();
     await firestore
       .collection("SignUpForm")
@@ -62,6 +102,7 @@ const SignUpForm = () => {
         Message: Message,
         curTime: MainTime,
         curDate: date,
+        formid: idx,
       })
       .then(() => {
         toast.success("Thank You! We'll Get Back To You Soon", {
