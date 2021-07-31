@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
@@ -61,6 +61,7 @@ const SignUpForm = () => {
           let val = data.id;
           console.log("Document data:", val);
           setidx(val);
+          setNewValue(val);
         } else {
           // doc.data() will be undefined in this case
 
@@ -71,6 +72,29 @@ const SignUpForm = () => {
         console.log("Error getting document:", error);
       });
   }
+
+  useEffect(() => {
+    const docRef = firestore.collection("FormValue").doc("Contact");
+
+    docRef
+      .get()
+      .then((doc) => {
+        if (doc.exists) {
+          let data = doc.data();
+          let val = data.id;
+          console.log("Document data:", val);
+          setidx(val);
+          setNewValue(val);
+        } else {
+          // doc.data() will be undefined in this case
+
+          console.log("No such document!");
+        }
+      })
+      .catch(function (error) {
+        console.log("Error getting document:", error);
+      });
+  });
 
   function setNewValue(newval) {
     newval = newval + 1;
@@ -88,8 +112,7 @@ const SignUpForm = () => {
   const handleSubmit = async (event) => {
     var MainTime = getTime();
     var date = getDate();
-    getValue();
-    setNewValue(idx);
+
     event.preventDefault();
     await firestore
       .collection("SignUpForm")
