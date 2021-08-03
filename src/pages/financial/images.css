@@ -1,0 +1,16 @@
+.imagedivs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+}
+
+.sectionx {
+  margin-bottom: 5rem;
+}
