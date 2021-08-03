@@ -9,7 +9,7 @@ function MenuBar() {
   return (
     <Navbar
       expand="lg"
-      style={{ backgroundColor: "#1b6dae", justifyContent:"center" }}
+      style={{ backgroundColor: "#1b6dae", justifyContent: "center" }}
       className="mobilenotrqd"
       fixed="top"
     >
@@ -21,7 +21,7 @@ function MenuBar() {
           src={require("../MenuBar/LBTC-Header-Logo-CS.png")}
           alt=""
         />{" "}
-        <span style={{color:"white"}}>ಬದಲಾಗಿ ಬದಲಾಗಿಸೋಣ</span>
+        <span style={{ color: "white" }}>ಬದಲಾಗಿ ಬದಲಾಗಿಸೋಣ</span>
         {/* <img
           width="150"
           height="120"
@@ -71,6 +71,18 @@ function MenuBar() {
             }}
           >
             Events
+          </Nav.Link>
+          <Nav.Link
+            as={Link}
+            to="/finance"
+            style={{
+              color: "white",
+              textAlignLast: "center",
+              fontSize: "1.1rem",
+              fontWeight: "700",
+            }}
+          >
+            Funds
           </Nav.Link>
           <Nav.Link
             as={Link}

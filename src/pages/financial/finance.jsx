@@ -16,7 +16,7 @@ const Finance = () => {
     <div className="App">
       <main>
         <HeaderBar></HeaderBar>
-
+        <MenuBarX></MenuBarX>
         <MenuBar></MenuBar>
 
         <StickyHeader></StickyHeader>
