@@ -1,5 +1,5 @@
 import React from "react";
-import {Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../MenuBar/menubar.min.scss";
 
 function MenuBar() {
@@ -14,10 +14,9 @@ function MenuBar() {
                 alt="MenuBar-Logo.png"
                 itemprop="image"
               />
-              
             </div>
           </Link>
-          
+
           {/* <Link to="">
             <div class="logo">
               <img
@@ -27,7 +26,6 @@ function MenuBar() {
               />
             </div>
           </Link> */}
-         
 
           {/* <div className="tp-scl">
             <a
@@ -59,7 +57,8 @@ function MenuBar() {
             <div>
               <ul>
                 <li>
-                  <img className="kannadatextfinal"
+                  <img
+                    className="kannadatextfinal"
                     src={require("../MenuBar/kannada-logo.png")}
                     alt="MenuBar-Logo.png"
                     itemprop="image"
@@ -71,9 +70,9 @@ function MenuBar() {
                 <li class="menu-item-has-children">
                   <Link to="/gallery">Gallery</Link>
                 </li>
-                {/* <li class="menu-item-has-children">
-                  <Link to="/events">Events</Link>
-                </li> */}
+                <li>
+                  <Link to="/finance">Funds</Link>
+                </li>
                 <li class="menu-item-has-children">
                   <Link to="/contact">Contact</Link>
                 </li>
@@ -81,9 +80,7 @@ function MenuBar() {
                   <Link to="/blog">Blog</Link>
                 </li>
                 <li>
-                  <Link to="/covid19">
-                    Covid-19
-                  </Link>
+                  <Link to="/covid19">Covid-19</Link>
                 </li>
               </ul>
               <a
@@ -93,7 +90,7 @@ function MenuBar() {
                 itemprop="url"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ textDecoration: "none"}}
+                style={{ textDecoration: "none" }}
               >
                 Donate<span></span>
               </a>

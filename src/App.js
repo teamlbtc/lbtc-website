@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./App.css";
-import { Switch, Route} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import HomePage from "./pages/homepage/HomePage";
 import AboutUS from "./pages/aboutus/AboutUS";
 import Gallery from "./pages/gallery/Gallery";
@@ -46,6 +46,7 @@ import BlogDetails8 from "./pages/blog/BlogDetails8";
 import BlogDetails9 from "./pages/blog/BlogDetails9";
 import MainForm from "./pages/forms/MainForm";
 import SignUpForm from "./pages/signupform/SignUpForm";
+import Finance from "./pages/financial/finance";
 
 function App() {
   return (
@@ -53,6 +54,8 @@ function App() {
       <Route exact path="/" render={() => <HomePage></HomePage>}></Route>
 
       <Route exact path="/about" render={() => <AboutUS></AboutUS>}></Route>
+
+      <Route exact path="/finance" render={() => <Finance></Finance>}></Route>
 
       <Route exact path="/covid19" render={() => <Covid19></Covid19>}></Route>
       <Route
