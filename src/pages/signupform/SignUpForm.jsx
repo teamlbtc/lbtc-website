@@ -44,7 +44,7 @@ const SignUpForm = () => {
   function getDate() {
     var d = new Date();
     var date = d.getDate();
-    var month = d.getMonth();
+    var month = d.getMonth() + 1;
     var year = d.getFullYear();
     var final = date + "/" + month + "/" + year;
     return final;
