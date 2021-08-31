@@ -72,7 +72,7 @@ function MenuBar() {
           >
             Events
           </Nav.Link>
-          <Nav.Link
+          {/* <Nav.Link
             as={Link}
             to="/finance"
             style={{
@@ -83,7 +83,7 @@ function MenuBar() {
             }}
           >
             Funds
-          </Nav.Link>
+          </Nav.Link> */}
           <Nav.Link
             as={Link}
             to="/contact"
