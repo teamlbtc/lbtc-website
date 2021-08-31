@@ -70,9 +70,9 @@ function MenuBar() {
                 <li class="menu-item-has-children">
                   <Link to="/gallery">Gallery</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/finance">Funds</Link>
-                </li>
+                </li> */}
                 <li class="menu-item-has-children">
                   <Link to="/contact">Contact</Link>
                 </li>

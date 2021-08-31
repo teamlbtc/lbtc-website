@@ -18,7 +18,6 @@ const Finance = () => {
         <HeaderBar></HeaderBar>
         <MenuBarX></MenuBarX>
         <MenuBar></MenuBar>
-
         <StickyHeader></StickyHeader>
         <section>
           <div class="block no-padding aboutpaddingnotreqd">
@@ -41,12 +40,12 @@ const Finance = () => {
                       Home
                     </Link>
                   </li>
-                  <li class="breadcrumb-item active">Finance</li>
+                  <li class="breadcrumb-item active">Funds</li>
                 </ol>
               </div>
             </div>
           </div>
-          <div class="sectionx">
+          <div class="sectionxx">
             <h1>#WestandTogether</h1>
             <br></br>
             <div class="imagedivs">
@@ -56,7 +55,7 @@ const Finance = () => {
             </div>
           </div>
 
-          <div class="sectionx">
+          <div class="sectionxx">
             <h1>Covid Project</h1>
             <br></br>
             <div class="imagedivs">

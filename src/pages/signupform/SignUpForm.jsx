@@ -321,6 +321,17 @@ const SignUpForm = () => {
                           Bengaluru-70
                         </a>
                       </p>
+                      <br></br>
+                      <p itemprop="description">
+                        <span>
+                          <i className="fa fa-home"></i>{" "}
+                        </span>
+                        <a href="https://goo.gl/maps/HhhVtD3ZP7QNRuze9">
+                          <strong>Ittamadu Branch : </strong>95, 3nd, Main Rd,
+                          Anjaneya Nagar, Ittamadu, Banashankari 3rd Stage,
+                          Banashankari, Bengaluru, Karnataka 560085
+                        </a>
+                      </p>
                       <ul class="cnt-inf-lst">
                         <li>
                           <span>
