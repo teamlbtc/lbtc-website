@@ -86,7 +86,7 @@ const HomePage = () => {
         {/*Owl Carousel Goes Here */}
         {/*Donate Section */}
         <OurActivities></OurActivities> {/* Our Activities Component */}
-        <PartnersContainer></PartnersContainer>
+        {/* <PartnersContainer></PartnersContainer> */}
         <BlogArticles></BlogArticles> {/* News Articles Component */}
         <FooterMain></FooterMain>
       </main>

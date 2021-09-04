@@ -47,6 +47,7 @@ import BlogDetails9 from "./pages/blog/BlogDetails9";
 import MainForm from "./pages/forms/MainForm";
 import SignUpForm from "./pages/signupform/SignUpForm";
 import Finance from "./pages/financial/finance";
+import Supporters from "./pages/supporters/supporters";
 
 function App() {
   return (
@@ -56,6 +57,11 @@ function App() {
       <Route exact path="/about" render={() => <AboutUS></AboutUS>}></Route>
 
       <Route exact path="/finance" render={() => <Finance></Finance>}></Route>
+      <Route
+        exact
+        path="/supporters"
+        render={() => <Supporters></Supporters>}
+      ></Route>
 
       <Route exact path="/covid19" render={() => <Covid19></Covid19>}></Route>
       <Route
