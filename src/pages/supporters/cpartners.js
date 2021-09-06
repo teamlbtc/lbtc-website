@@ -54,6 +54,11 @@ export const Cpartners = [
     clss: "cell",
     anchor: "https://www.westerndigital.com/",
   },
+  {
+    image: require("./cpartners/SupportersPage/resil.png"),
+    clss: "cell",
+    anchor: "https://resil.com/"
+  }
 ];
 
 export const Cpartners1 = [];
