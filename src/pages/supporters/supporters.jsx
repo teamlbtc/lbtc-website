@@ -80,7 +80,7 @@ const Supporters = () => {
             <h1>Worked With:</h1>
             <div class="gridcontainer">
               <img
-                src={require("./cpartners/SuppPage/6.png")}
+                src={require("./cpartners/SuppPage/65.png")}
                 alt="images"
               ></img>
               <img
