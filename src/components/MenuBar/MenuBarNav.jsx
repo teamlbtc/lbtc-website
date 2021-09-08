@@ -72,9 +72,9 @@ function MenuBar() {
           >
             Events
           </Nav.Link>
-          {/* <Nav.Link
+          <Nav.Link
             as={Link}
-            to="/finance"
+            to="/supporters"
             style={{
               color: "white",
               textAlignLast: "center",
@@ -82,8 +82,8 @@ function MenuBar() {
               fontWeight: "700",
             }}
           >
-            Funds
-          </Nav.Link> */}
+            Supporters
+          </Nav.Link>
           <Nav.Link
             as={Link}
             to="/contact"
