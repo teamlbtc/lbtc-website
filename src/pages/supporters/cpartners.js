@@ -22,7 +22,7 @@ export const Cpartners = [
   {
     image: require("./cpartners/SupportersPage/fwc.png"),
     clss: "cell",
-    anchor: "",
+    anchor: "https://www.fwc.co.in/",
   },
   {
     image: require("./cpartners/SupportersPage/Goodera.png"),
@@ -40,7 +40,7 @@ export const Cpartners = [
     anchor: "https://jyothyit.ac.in/",
   },
   {
-    image: require("./cpartners/SupportersPage/mouser.png"),
+    image: require("./cpartners/SupportersPage/mouser1.png"),
     clss: "cell",
     anchor: "https://www.mouser.in/",
   },
