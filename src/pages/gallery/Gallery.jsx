@@ -3,11 +3,10 @@ import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
-import Footer from "../../components/Footer/Footer";
 import "../gallery/gallery.min.scss";
 import "../blog/blog.min.scss";
 import { Link } from "react-router-dom";
-import { FooterMain } from "../../components/FooterMain/FooterMain";
+import FooterMain from "../../components/FooterMain/FooterMain";
 
 const Gallery = () => {
   React.useEffect(() => {

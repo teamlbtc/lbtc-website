@@ -6,7 +6,7 @@ import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import "../gallery/gallery.min.scss";
 import "../blog/blog.min.scss";
 import { Link } from "react-router-dom";
-import { FooterMain } from "../../components/FooterMain/FooterMain";
+import FooterMain from "../../components/FooterMain/FooterMain";
 import { Imageswe } from "./itemsWe";
 import { CovidRelif } from "./itemsCovid";
 import "./images.css";

@@ -6,7 +6,7 @@ import "../aboutus/aboutus.min.scss";
 import { Link } from "react-router-dom";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import ImageSlider from "../../components/ImageSlider/ImageSlider";
-import { FooterMain } from "../../components/FooterMain/FooterMain";
+import FooterMain from "../../components/FooterMain/FooterMain";
 // import { SliderData } from '../../components/ImageSlider/SliderData';
 
 class Covid19 extends Component {

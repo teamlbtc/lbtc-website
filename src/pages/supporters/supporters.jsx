@@ -6,9 +6,7 @@ import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import "../gallery/gallery.min.scss";
 import "../blog/blog.min.scss";
 import { Link } from "react-router-dom";
-import { FooterMain } from "../../components/FooterMain/FooterMain";
-import Partners from "../../components/Partners/Partners";
-import { KeySupporters } from "./keySupp";
+import FooterMain from "../../components/FooterMain/FooterMain";
 import { Cpartners } from "./cpartners";
 import "./support.css";
 

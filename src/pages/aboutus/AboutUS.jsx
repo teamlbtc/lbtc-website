@@ -9,7 +9,7 @@ import YoutubeVideo from "../../components/YoutubeVideo/YoutubeVideo";
 import { Link } from "react-router-dom";
 import FeaturedOn from "./FeaturedOn/FeaturedOn";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
-import { FooterMain } from "../../components/FooterMain/FooterMain";
+import FooterMain from "../../components/FooterMain/FooterMain";
 // import "../../components/MenuBar/menubarwhitetext.min.scss";
 
 const AboutUS = () => {

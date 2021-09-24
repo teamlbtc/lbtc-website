@@ -27,6 +27,7 @@ function NewPop() {
                 setraised(finalTemp);
                 let val = Number(((raised / 3700000) * 100).toFixed(1));
                 setraisedper(val);
+                console.log(raisedper)
                 console.log("success");
               }
             }

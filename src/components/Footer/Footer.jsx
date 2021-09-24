@@ -105,7 +105,7 @@ function Footer() {
                   </ul>
                   <ul>
                     <li>
-                      <a href="#" title="" itemprop="url">
+                      <a href="#end" title="" itemprop="url">
                         Covid-19 Work
                       </a>
                     </li>
