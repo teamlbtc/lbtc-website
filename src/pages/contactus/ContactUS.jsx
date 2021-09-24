@@ -9,7 +9,7 @@ import "../contactus/contactus.min.scss";
 import { firestore } from "../../services/firebase";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { FooterMain } from "../../components/FooterMain/FooterMain";
+import FooterMain from "../../components/FooterMain/FooterMain";
 
 const ContactUS = () => {
   const [FirstName, setFirstName] = useState("");

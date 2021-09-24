@@ -2,10 +2,9 @@ import React from "react";
 import JotformEmbed from "react-jotform-embed";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
-import Footer from "../../components/Footer/Footer";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import "../forms/mainform.min.scss";
-import { FooterMain } from "../../components/FooterMain/FooterMain";
+import FooterMain from "../../components/FooterMain/FooterMain";
 
 const EventDetails8 = () => {
   React.useEffect(() => {

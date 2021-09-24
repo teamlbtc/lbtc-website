@@ -6,7 +6,7 @@ import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import "../blog/blog.min.scss";
 import { Link } from "react-router-dom";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
-import { FooterMain } from "../../components/FooterMain/FooterMain";
+import FooterMain from "../../components/FooterMain/FooterMain";
 
 const Blog = () => {
   React.useEffect(() => {

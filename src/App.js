@@ -48,6 +48,8 @@ import MainForm from "./pages/forms/MainForm";
 import SignUpForm from "./pages/signupform/SignUpForm";
 import Finance from "./pages/financial/finance";
 import Supporters from "./pages/supporters/supporters";
+import Newsletters from "./pages/newsletters/Newsletters";
+import Aug2021 from "./pages/newsletters/Aug2021";
 
 function App() {
   return (
@@ -57,6 +59,8 @@ function App() {
       <Route exact path="/about" render={() => <AboutUS></AboutUS>}></Route>
 
       <Route exact path="/finance" render={() => <Finance></Finance>}></Route>
+      <Route exact path="/newsletters" render={() => <Newsletters></Newsletters>}></Route>
+      <Route exact path="/naug2021" render={() => <Aug2021></Aug2021>}></Route>
       <Route
         exact
         path="/supporters"

@@ -60,7 +60,7 @@ function MenuBar() {
           >
             Gallery
           </Nav.Link>
-          <Nav.Link
+          {/* <Nav.Link
             as={Link}
             to="/events"
             style={{
@@ -71,7 +71,7 @@ function MenuBar() {
             }}
           >
             Events
-          </Nav.Link>
+          </Nav.Link> */}
           <Nav.Link
             as={Link}
             to="/supporters"

@@ -1,0 +1,12 @@
+.sectiondiv {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.colorwithstyle {
+    width: 100%;
+    background-color: #4682B4;
+    height: 90px;
+}

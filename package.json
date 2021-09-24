@@ -37,6 +37,7 @@
     "react-toastify": "^6.0.9",
     "react-youtube": "^7.11.3",
     "reactjs-popup": "^2.0.4",
+    "reactstrap": "^8.10.0",
     "yarn": "^1.22.11"
   },
   "scripts": {

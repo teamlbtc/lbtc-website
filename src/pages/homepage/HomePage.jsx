@@ -15,7 +15,7 @@ import "../homepage/homepage.min.scss";
 import PartnersContainer from "../../components/PartnersContainer/PartnersContainer.component";
 import NewPop from "../../components/popup/NewPop";
 import "reactjs-popup/dist/index.css";
-import { FooterMain } from "../../components/FooterMain/FooterMain";
+import FooterMain from "../../components/FooterMain/FooterMain";
 import { TiyIndia } from "../../components/TIYIndia/TiyIndia";
 
 const HomePage = () => {

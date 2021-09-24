@@ -9,7 +9,7 @@ import {
   FaRegAddressBook,
 } from "react-icons/fa";
 
-export const FooterMain = () => {
+const FooterMain = () => {
   return (
     <footer class="sectionx bg-footer">
       <h4 style={{ color: "white", paddingBottom: "19px" }}>
@@ -121,3 +121,5 @@ export const FooterMain = () => {
     </footer>
   );
 };
+
+export default FooterMain;
