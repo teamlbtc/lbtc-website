@@ -50,9 +50,9 @@ const Newsletters = () => {
                         <div className="sectiondiv">
                             <div className="colorwithstyle" >
                             {NewsItems.map((main) => (
-                                <Link to={"/"+main.newlink} style={{display: "flex" , justifyContent: "space-between" , alignItems: "center"}}>
-                                    <h1 style={{paddingLeft: "2rem" , color: "white", paddingTop: "1rem"}}>{main.month}</h1>
-                                    <h1 style={{paddingRight: "2rem" , color: "white" , paddingTop: "1rem"}}>{main.year}</h1>
+                                <Link className="mobx" to={"/"+main.newlink} style={{display: "flex" , justifyContent: "space-between" , alignItems: "center"}}>
+                                    <h1 className="xview" style={{paddingLeft: "2rem" , color: "white", paddingTop: "1rem"}}>{main.month}</h1>
+                                    <h1 className="xview" style={{paddingRight: "2rem" , color: "white" , paddingTop: "1rem"}}>{main.year}</h1>
                                 </Link>
                             ))}
                                 
