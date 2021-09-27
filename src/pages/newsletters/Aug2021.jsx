@@ -45,7 +45,7 @@ const Aug2021 = () => {
                     <h1>August 2021</h1>
                     <section>
                         <div className="sectiondiv">
-                            
+                        <img src={require('../newsletters/Aug2021/1.png')}></img>
                             <a href="https://www.ketto.org/fundraiser/westandtogether-oxygen-support-for-10k-vulnerable-families?payment=form"
                                 title=""
                                 itemprop="url"
@@ -54,8 +54,13 @@ const Aug2021 = () => {
                                 style={{ textDecoration: "none" }}><img src={require('../newsletters/Aug2021/2.png')}></img></a>
                                 <Link to="/signupform"> 
                                     <img src={require('../newsletters/Aug2021/3.png')}></img>
-                                    <img src={require('../newsletters/Aug2021/4.png')}></img>
                                 </Link>
+                                <a href="http://bit.ly/CPP_Vol_Enrolment"
+                                title=""
+                                itemprop="url"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ textDecoration: "none" }}>  <img src={require('../newsletters/Aug2021/4.png')}></img></a>
                                 
                         </div>
                     </section>
