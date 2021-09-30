@@ -5,14 +5,14 @@ import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
-import Footer from "../../components/Footer/Footer";
+//import Footer from "../../components/Footer/Footer";
 import LbtcCarousel from "../../components/LbtcCarousel/LbtcCarousel";
 import OurActivities from "../../components/OurActivities/OurActivities";
 import EventFunding from "../../components/EventFunding/EventFunding";
 // import Testimonials from "../../components/Testimonials/Testimonials";
 import { Link } from "react-router-dom";
 import "../homepage/homepage.min.scss";
-import PartnersContainer from "../../components/PartnersContainer/PartnersContainer.component";
+//import PartnersContainer from "../../components/PartnersContainer/PartnersContainer.component";
 import NewPop from "../../components/popup/NewPop";
 import "reactjs-popup/dist/index.css";
 import FooterMain from "../../components/FooterMain/FooterMain";
@@ -66,7 +66,7 @@ const HomePage = () => {
                       </p>
                       <br />
 
-                      <a className="thm-btn" title="">
+                      <a href="#" className="thm-btn" title="">
                         <Link
                           to="/events"
                           className="viewallbutton"
