@@ -48,9 +48,11 @@ function NewPop() {
           X
         </button>
         <div className="content">
-          <h1>Ready, Set, Scavenge!</h1>
+          <h1>#WeStandTogether</h1>
           <h5>
-          On the 2nd of Oct, 2021, we are organizing a scavenger hunt across India from 6 AM to 6 PM to recreate the awareness on basic concepts of Solid Waste Management. This activity highlights the little things that we can do to create a bigger positive impact on the environment. 
+            Join our campaign on Ketto to contribute in helping 10000+
+            vulnerable families in Bangalore as a part of our COVID-19 Relief
+            Project.
           </h5>
           {/* <h6>
             Register Now for your Locality!
@@ -59,7 +61,7 @@ function NewPop() {
           The aim of the project is to provide emergency oxygen support for all the 10K Vulnerable Families in all the 6 urban poor settlements, where we are conducting 'Covid19 Relief Project' from the past 8 months in association with Azim Premji Foundation (APF), BBMP & Govt. of Karnataka.
           <br /> */}
           {/* <br /> */}
-          {/* <div class="bar">
+          <div class="bar">
             <h5>
               ₹{raised.toLocaleString("en-IN")} raised of ₹37,00,000 goal{" "}
             </h5>
@@ -72,19 +74,19 @@ function NewPop() {
                 },
               }}
             />
-          </div> */}
+          </div>
 
           <br />
           <a
             class="thm-btn yellowcolor"
-            href="https://forms.gle/iQ4SZww7yxni88EeA"
+            href="https://www.ketto.org/fundraiser/westandtogether-oxygen-support-for-10k-vulnerable-families?payment=form"
             title=""
             itemprop="url"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: "none" }}
           >
-            Register Now for your Locality!
+            Donate Now
           </a>
         </div>
       </div>
