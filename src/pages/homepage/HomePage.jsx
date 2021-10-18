@@ -27,13 +27,13 @@ const HomePage = () => {
     <div className="App">
       <main>
         <NewPop class="top"></NewPop>
-        <HeaderBar></HeaderBar> {/* Headers Component */}
-        <MenuBar></MenuBar> {/* MenuBar Component */}
-        <StickyHeader></StickyHeader> {/* StickyHeader Component */}
-        {/* <ResponsiveHeader></ResponsiveHeader> Headers Component */}
+        <HeaderBar></HeaderBar> 
+        <MenuBar></MenuBar> 
+        <StickyHeader></StickyHeader>
+       
         <MenuBarX></MenuBarX>
         <LbtcCarousel></LbtcCarousel>
-        {/* Home Page First Section Component */}
+       
         <AboutUs></AboutUs>
         {/* About Us Component */}
         <EventFunding></EventFunding> {/* Event Funds Section Component */}
