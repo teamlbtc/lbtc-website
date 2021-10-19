@@ -14,6 +14,12 @@ function MenuBar() {
                 alt="MenuBar-Logo.png"
                 itemprop="image"
               />
+                                {/* <img
+                    className="kannadatextfinal"
+                    src={require("../MenuBar/kannada-logo.png")}
+                    alt="MenuBar-Logo.png"
+                    itemprop="image"
+                  /> */}
             </div>
           </Link>
 
@@ -57,12 +63,7 @@ function MenuBar() {
             <div>
               <ul>
                 <li>
-                  <img
-                    className="kannadatextfinal"
-                    src={require("../MenuBar/kannada-logo.png")}
-                    alt="MenuBar-Logo.png"
-                    itemprop="image"
-                  />
+
                 </li>
                 <li class="menu-item-has-children">
                   <Link to="/about">About</Link>
@@ -73,9 +74,9 @@ function MenuBar() {
                 <li class="menu-item-has-children">
                   <Link to="/supporters">Supporters</Link>
                 </li>
-                {/* <li>
-                  <Link to="/finance">Funds</Link>
-                </li> */}
+                <li>
+                  <Link to="/newsletters">NewsLetters</Link>
+                </li>
                 <li class="menu-item-has-children">
                   <Link to="/contact">Contact</Link>
                 </li>
