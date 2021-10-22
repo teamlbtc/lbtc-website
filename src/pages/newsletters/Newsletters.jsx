@@ -37,13 +37,13 @@ const Newsletters = () => {
                       Home
                     </Link>
                   </li>
-                  <li class="breadcrumb-item active">Newsletters</li>
+                  <li class="breadcrumb-item active">Newsletter</li>
                 </ol>
               </div>
             </div>
           </div>
           <div>
-            <h1>Our NewsLetters</h1>
+            <h1>Our NewsLetter</h1>
             <section>
               {NewsItems.map((main) => (
                 <div className="sectiondiv">

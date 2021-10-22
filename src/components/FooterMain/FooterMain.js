@@ -54,6 +54,12 @@ const FooterMain = () => {
                 <Link to="/gallery">Gallery</Link>
               </li>
               <li>
+                <Link to="/newsletters">Newsletter</Link>
+              </li>
+              <li>
+                <Link to="/supporters">Supporters</Link>
+              </li>
+              <li>
                 <Link to="/contact">Contact</Link>
               </li>
               <li>

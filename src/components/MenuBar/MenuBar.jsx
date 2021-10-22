@@ -75,7 +75,7 @@ function MenuBar() {
                   <Link to="/supporters">Supporters</Link>
                 </li>
                 <li>
-                  <Link to="/newsletters">NewsLetters</Link>
+                  <Link to="/newsletters">NewsLetter</Link>
                 </li>
                 <li class="menu-item-has-children">
                   <Link to="/contact">Contact</Link>
