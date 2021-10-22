@@ -74,6 +74,18 @@ function MenuBar() {
           </Nav.Link> */}
           <Nav.Link
             as={Link}
+            to="/newsletters"
+            style={{
+              color: "white",
+              textAlignLast: "center",
+              fontSize: "1.1rem",
+              fontWeight: "700",
+            }}
+          >
+            Newsletter
+          </Nav.Link>
+          <Nav.Link
+            as={Link}
             to="/supporters"
             style={{
               color: "white",
