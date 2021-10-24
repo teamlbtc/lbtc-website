@@ -79,7 +79,7 @@ const FooterMain = () => {
               Contact us if need help with anything
             </p>
             <p class="contact-info">
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact" style={{color:"#00C664"}}>Contact</Link>
             </p>
             <div class="mt-5">
               <ul class="list-inline">
