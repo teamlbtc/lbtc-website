@@ -115,8 +115,6 @@ const ContactUS = () => {
                         </span>
                       </h2>
                       <p itemprop="description">
-                        {/* Want to bring in change? Join hands with us to make a
-                        difference. */}
                       </p>
                       <form
                         class="cnt-frm"
@@ -206,7 +204,7 @@ const ContactUS = () => {
                         <span>
                           <i className="fa fa-home"></i>{" "}
                         </span>
-                        <a href="https://www.google.com/maps?ll=12.928404,77.528416&z=12&t=m&hl=en-US&gl=IN&mapclient=embed&saddr&daddr=Let%27s+Be+The+Change,+25th+Main+Road,+1062,+15th+Cross+Rd,+Banashankari+Stage+II,+Bengaluru,+Karnataka+560070&dirflg=d">
+                        <a href="https://g.page/TeamLBTC?share" onMouseOver="this.style.color='#00C664'">
                           <strong>Main : </strong>No. 1062, 15th Cross Rd, 25th
                           Main Rd, BSK II Stage, Bengaluru-70
                         </a>
@@ -216,7 +214,7 @@ const ContactUS = () => {
                         <span>
                           <i className="fa fa-home"></i>{" "}
                         </span>
-                        <a href="https://goo.gl/maps/HhhVtD3ZP7QNRuze9">
+                        <a href="https://goo.gl/maps/sXVsq5UMMNBDrWnr6" onMouseOver="this.style.color='#00C664'">
                           <strong>Ittamadu Branch : </strong>95, 3nd, Main Rd,
                           Anjaneya Nagar, Ittamadu, Banashankari 3rd Stage,
                           Banashankari, Bengaluru, Karnataka 560085
@@ -242,9 +240,6 @@ const ContactUS = () => {
                           </span>
                           <a href="tel:+919353218818">+91 93532 18818</a>
                         </li>
-                        {/* <li>
-                          <span>F:</span>(55) 1234-56789
-                        </li> */}
                       </ul>
                       <div class="cnt-scl">
                         <a
@@ -258,15 +253,6 @@ const ContactUS = () => {
                         >
                           <i class="fa fa-facebook"></i>
                         </a>
-                        {/* <a
-                          class="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fa fa-pinterest-p"></i>
-                        </a> */}
                         <a
                           class="twitter"
                           href="https://twitter.com/TeamLBTC"
@@ -295,14 +281,6 @@ const ContactUS = () => {
                   </div>
                 </div>
               </div>
-              {/* <div class="cnt-fq text-center">
-                <h2 itemprop="headline">
-                  <i class="fa fa-cog"></i>Find Your Answer Here
-                  <a class="thm-btn" href="#top" title="" itemprop="url">
-                    Faq's<span></span>
-                  </a>
-                </h2>
-              </div> */}
             </div>
           </div>
         </section>
