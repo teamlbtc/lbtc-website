@@ -24,21 +24,16 @@ function Footer() {
                       />
                     </Link>
                   </div>
-                  {/* <p itemprop="description">
-                    We believe cleanlinesss can be established and issues can be
-                    solved when citizens take up initiatives and work in synergy
-                    with the Government.
-                  </p> */}
                   <br />
                   <br />
                   <br />
                   <ul class="abt-cnt-lst">
-                    <li>
+                    <li style={{textAlign: "justify"}}>
                       <i class="flaticon-telephone thm-clr"></i>
                       <a href="tel:+919353218818">+91 93532 18818</a>
                     </li>
 
-                    <li>
+                    <li style={{textAlign: "justify"}}>
                       <i class="fa fa-map-marker thm-clr"></i>
                       <a href="https://www.google.com/maps?ll=12.928404,77.528416&z=12&t=m&hl=en-US&gl=IN&mapclient=embed&saddr&daddr=Let%27s+Be+The+Change,+25th+Main+Road,+1062,+15th+Cross+Rd,+Banashankari+Stage+II,+Bengaluru,+Karnataka+560070&dirflg=d">
                         No. 1062, 15th Cross,
@@ -118,22 +113,10 @@ function Footer() {
                   <a href="index.html" title="Team LBTC" itemprop="url">
                     Team LBTC <br />
                   </a>{" "}
-                  {/* Powered By{" "}
-                  <a
-                    href="https://www.google.com"
-                    title="Team LBTC"
-                    itemprop="url"
-                  >
-                    HexClan Labs <br />
-                  </a> */}
                 </p>
                 <div class="ftr-sbscrb thm-layer opcAdi">
-                  {/* <div
-                    class="fixed-bg thm-bg patern-bg"
-                  ></div> */}
                   <p itemprop="description">
                     Feel free to get in touch with us{" "}
-                    {/* <strong>update to you email.</strong> */}
                   </p>
                   <Link to="/contact">Contact Us</Link>
                 </div>

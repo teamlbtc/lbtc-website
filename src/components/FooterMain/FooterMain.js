@@ -26,14 +26,14 @@ const FooterMain = () => {
           <div class="textcenter">
             <h6 class="footer-headingx text-uppercase text-white">INFO</h6>
             <ul class="list-unstyled footer-link mt-4">
-              <li>
+              <li style={{textAlign: "left"}}>
                 <FaPhone></FaPhone>
-                <a href="tel:+919353218818"> - +91 93532 18818</a>
+                <a href="tel:+919353218818">{" "}+91 93532 18818</a>
               </li>
-              <li>
+              <li style={{textAlign: "left"}}>
                 <FaRegAddressBook></FaRegAddressBook>
                 <a href="https://goo.gl/maps/HhhVtD3ZP7QNRuze9">
-                  - 95, 3nd, Main Rd, Anjaneya Nagar, Ittamadu, Banashankari 3rd
+                  - 95, 3rd, Main Rd, Anjaneya Nagar, Ittamadu, Banashankari 3rd
                   Stage, Banashankari, Bengaluru, Karnataka 560085
                 </a>
               </li>
@@ -121,7 +121,7 @@ const FooterMain = () => {
 
       <div class="text-center mt-5">
         <p class="footer-alt mb-0 f-14">
-          {new Date().getFullYear()} © LBTC, All Rights Reserved
+          {new Date().getFullYear()} © Let's Be The Change, All Rights Reserved
         </p>
       </div>
     </footer>
