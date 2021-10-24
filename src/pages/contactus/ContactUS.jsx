@@ -242,6 +242,17 @@ const ContactUS = () => {
                         </li>
                       </ul>
                       <div class="cnt-scl">
+                         <a
+                          class="instagram"
+                          href="https://www.instagram.com/team_lbtc/"
+                          title="Instagram"
+                          itemprop="url"
+                          target="_blank"
+                          without
+                          rel="noopener noreferrer"
+                        >
+                          <i class="fa fa-instagram"></i>
+                        </a>
                         <a
                           class="facebook"
                           href="https://www.facebook.com/TeamLBTC/"
@@ -263,17 +274,6 @@ const ContactUS = () => {
                           rel="noopener noreferrer"
                         >
                           <i class="fa fa-twitter"></i>
-                        </a>
-                        <a
-                          class="instagram"
-                          href="https://www.instagram.com/team_lbtc/"
-                          title="Instagram"
-                          itemprop="url"
-                          target="_blank"
-                          without
-                          rel="noopener noreferrer"
-                        >
-                          <i class="fa fa-instagram"></i>
                         </a>
                       </div>
                     </div>
