@@ -26,11 +26,11 @@ const FooterMain = () => {
           <div class="textcenter">
             <h6 class="footer-headingx text-uppercase text-white">INFO</h6>
             <ul class="list-unstyled footer-link mt-4">
-              <li style={{textAlign: "justify"}}>
+              <li style={{textAlign: "left"}}>
                 <FaPhone></FaPhone>
                 <a href="tel:+919353218818">{" "}+91 93532 18818</a>
               </li>
-              <li style={{textAlign: "justify"}}>
+              <li style={{textAlign: "left"}}>
                 <FaRegAddressBook></FaRegAddressBook>
                 <a href="https://goo.gl/maps/HhhVtD3ZP7QNRuze9">
                   - 95, 3rd, Main Rd, Anjaneya Nagar, Ittamadu, Banashankari 3rd
