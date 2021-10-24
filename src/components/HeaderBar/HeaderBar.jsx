@@ -16,9 +16,9 @@ function HeaderBar() {
       <div className="container">
         <div className="tpbr-inr">
           <div className="row justify-content-center">
-            <div className="col-md-6 col-sm-12 col-lg-6">
+            <div className="col-md-6 col-sm-12 col-lg-6 headercolor">
               <p itemprop="description">
-                <i className="flaticon-error thm-clr"></i>
+                <i className="flaticon-error thm-clr" style={{color:"#00C664"}}></i>
                 <strong>Sign Me Up as A Volunteer : </strong>
                 <a
                   href="https://letsbethechange.in/signupform"
@@ -26,6 +26,7 @@ function HeaderBar() {
                   itemprop="url"
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{color:"#00C664"}}
                 >
                   Click Here
                 </a>
