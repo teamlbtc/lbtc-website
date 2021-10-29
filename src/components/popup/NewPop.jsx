@@ -48,11 +48,9 @@ function NewPop() {
           X
         </button>
         <div className="content">
-          <h1>#WeStandTogether</h1>
+          <h1>Newsletter</h1>
           <h5>
-            Join our campaign on Ketto to contribute in helping 10000+
-            vulnerable families in Bangalore as a part of our COVID-19 Relief
-            Project.
+            We are super excited to share updates about all our ongoing and upcoming projects with you!!.
           </h5>
           {/* <h6>
             Register Now for your Locality!
@@ -61,7 +59,7 @@ function NewPop() {
           The aim of the project is to provide emergency oxygen support for all the 10K Vulnerable Families in all the 6 urban poor settlements, where we are conducting 'Covid19 Relief Project' from the past 8 months in association with Azim Premji Foundation (APF), BBMP & Govt. of Karnataka.
           <br /> */}
           {/* <br /> */}
-          <div class="bar">
+          {/* <div class="bar">
             <h5>
               ₹{raised.toLocaleString("en-IN")} raised of ₹37,00,000 goal{" "}
             </h5>
@@ -74,19 +72,19 @@ function NewPop() {
                 },
               }}
             />
-          </div>
+          </div> */}
 
           <br />
           <a
             class="thm-btn yellowcolor"
-            href="https://www.ketto.org/fundraiser/westandtogether-oxygen-support-for-10k-vulnerable-families?payment=form"
+            href="/newsletters"
             title=""
             itemprop="url"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: "none" }}
           >
-            Donate Now
+            Check it Out
           </a>
         </div>
       </div>
