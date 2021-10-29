@@ -48,7 +48,7 @@ function NewPop() {
           X
         </button>
         <div className="content">
-          <h1>#WeStandTogether</h1>
+          <h1 style={{color: "#00C664"}}>#WeStandTogether</h1>
           <h5>
             Join our campaign on Ketto to contribute in helping 10000+
             vulnerable families in Bangalore as a part of our COVID-19 Relief
