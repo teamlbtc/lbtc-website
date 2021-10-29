@@ -12,6 +12,9 @@
     align-items: center;
 
 }
+.title{
+    color: #00C664;
+}
 .bar {
     padding-left: 32px;
     padding-right: 32px;
