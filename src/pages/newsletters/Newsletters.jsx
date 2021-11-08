@@ -48,9 +48,9 @@ const Newsletters = () => {
               {NewsItems.map((main) => (
                 <div className="sectiondiv">
                   <div className="colorwithstyle">
-                    <Link
+                    <a
                       className="mobx"
-                      to={"/" + main.newlink}
+                      href={main.newlink}
                       style={{
                         display: "flex",
                         justifyContent: "space-between",
@@ -77,7 +77,7 @@ const Newsletters = () => {
                       >
                         {main.year}
                       </h1>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               ))}
