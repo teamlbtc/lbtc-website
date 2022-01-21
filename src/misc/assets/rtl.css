@@ -1,0 +1,244 @@
+/*
+Theme Name: Orchids
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	overflow-x: hidden;
+	unicode-bidi: embed;
+}
+.at-logo,
+.at-nav,
+.at-contactsocial,
+.at-titleandbtn,
+.at-requestacallback .at-textcontent,
+.at-whychooseus,
+.at-whychooseusicon,
+.at-emailsubscribearea p,
+.at-fcolumn,
+.at-widgetusefullinks .at-widgetcontent ul li:nth-child(odd),
+.at-socialicons li,
+.at-slidercontent .at-btns .at-btn,
+.at-companypresentation a i,
+.at-companypresentation a span,
+.at-logo,
+.at-breadcrumb li,
+.at-member figure,
+.at-membercontent h3,
+.at-membercontent span,
+.at-membercontent .at-btn,
+.at-careerheade li,
+.at-jobaccordion,
+.at-jobaccordion .panel,
+.at-jobaccordion .panel-heading,
+.at-griditem,
+.at-skillbar,
+.at-ourprocess li:nth-child(even) figure,
+.at-comingsooncontent,
+.at-postmetadata li,
+.at-pagination,
+.at-widget .at-widgetcontent ul li figure,
+.at-widgetcontent ul li,
+.at-postsvtwo .at-post,
+.at-postdetail .at-postfoot ul,
+.at-authordp,
+.at-authorname,
+.at-commenthead time,
+.at-address .at-btndirection,
+.at-address .at-btndirection span,
+.at-address .at-btndirection i,
+.at-contactusvtwo .at-locationmap,
+.pull-left {float: right !important;}
+.at-navigationarea,
+.at-formnewsletter,
+.at-widgetusefullinks .at-widgetcontent ul li:nth-child(even),
+.at-ourprocess li:nth-child(odd) figure,
+.at-rightimgbox,
+.at-pagination ul,
+.at-postdetail .at-postfoot .at-postshare,
+.at-btncommentreply,
+.at-contactusvtwo .at-formcontacus,
+.pull-right{float: left !important;}
+.at-logo {padding: 14px 20px 15px 0;}
+.at-contactsocial {padding: 0 100px 0 0;}
+.at-contactsocial .at-socialicons {padding: 0 20px 0 0;}
+.at-homeslider .pogoSlider-slide {padding: 0 20% 0 0;}
+.at-slidercontent .at-btns .at-btn + .at-btn {margin: 0 20px 0 0;}
+.at-infoemail {
+	left: auto;
+	right: -73px;
+	padding: 0 50px 0 0;
+}
+.at-pogolidercontent {
+	left: auto;
+	right: 57px;
+}
+.at-titleborder:before {
+	right: 0;
+	left: auto;
+}
+.at-featuresarea {padding: 100px 340px 100px 0;}
+.at-featuresarea:before {
+	left: auto;
+	right: 0;
+}
+.at-titleandbtn{padding: 0 0 0 60px;}
+.at-features {margin: 0 0 0 30px;}
+.at-featuresslider .at-slidernav {
+	right: auto;
+	left: 25%;
+}
+.at-featureicon:before,
+.at-sectiontitleborder:before {
+	left: auto;
+	right: 0;
+}
+.at-servicesslider .at-slidernav {
+	right: auto;
+	left: 0;
+}
+.at-btnreadmore {
+	float: right;
+	padding: 0 0 0 20px;
+}
+.at-btnreadmore:before {
+	left: 0;
+	right: auto;
+}
+.at-counterarea:before {
+	right: auto;
+	left: -330px;
+}
+.at-counters li {float: right;}
+.at-requestacallback .at-textcontent {padding: 0 0 0 7%;}
+.at-select:after {
+	right: auto;
+	left: 15px;
+}
+.at-btnviewall {
+	right: auto;
+	left: 15px;
+}
+.at-whychooseus {padding: 0 0 0 5%;}
+.at-whychooseus:nth-child(odd) {padding: 0 5% 0 0;}
+.at-contactinfo li i{text-align: right;}
+.at-sliderdots {
+	right: auto;
+	left: 20px;
+}
+.at-emailsubscribearea p{padding: 0 50px 0 0;}
+.at-emailsubscribearea p:before {
+	left: auto;
+	right: 0;
+	background-position: center right;
+}
+.at-formnewsletter fieldset {padding: 0 0 0 155px;}
+.at-formnewsletter fieldset .at-btn {
+	right: auto;
+	left: 0;
+}
+.at-fcolumn + .at-fcolumn {padding: 30px 10% 30px 0;}
+.at-widgetusefullinks .at-widgetcontent ul li a:hover {padding: 0 15px 0 0;}
+.at-widgetusefullinks .at-widgetcontent ul li a:hover:before {
+	left: auto;
+	right: 0;
+}
+.at-widgetcontent ul li time {padding: 0 30px 0 0;}
+.at-widgetcontent ul li time:before {
+	left: auto;
+	right: 0;
+}
+.at-sidebar .at-widgetlinking ul li a:before {
+	right: auto;
+	left: 0;
+}
+.at-widgettitleborder:before {
+	left: auto;
+	right: 0;
+}
+.at-companypresentation a i {margin: 0 0 0 10px;}
+.at-breadcrumb li:first-child {padding:0 0 0 15px;}
+.at-breadcrumb li:last-child {padding: 0 15px 0 0;}
+.at-breadcrumb li:after {
+	left: auto;
+	right: -3px;
+}
+.at-liststyle li {padding: 0 20px 0 0;}
+.at-liststylearrowright li:before {
+	left: auto;
+	right: 0;
+	content: '\f0d9';
+}
+.at-aboutsection .at-feature .at-featureicon:before {
+	left: auto;
+	right: 50%;
+	margin: 0 -30px 0 0;
+}
+.at-aboutus .at-member figure {margin: 0 0 0 30px;}
+.at-membercontent h3 {margin: 0 0 0 20px;}
+.at-jobaccordion .panel-heading{padding: 0 0 0 50px;}
+.at-jobaccordion .panel-heading:before,
+.at-jobaccordion .panel-heading:after {
+	right: auto;
+	left: 0;
+}
+.at-maintenancecontent .at-sectiontitleborder,
+.at-maintenancecontent .at-description {
+	padding-right: 0;
+	padding-left: 10%;
+}
+.at-progresspercent {
+	right: auto;
+	left: 0;
+}
+.at-ourprocess li:nth-child(odd) figure {margin: 0 60px 0 0;}
+.at-ourprocess li:nth-child(even) figure {margin: 0 0 0 60px;}
+.at-serviceicon:before {
+	left: auto;
+	right: 0;
+}
+.at-servicedetailsection .at-featureicon:before {
+	left: auto;
+	right: calc(50% - 30px);
+}
+.at-comingsooncontent {padding: 60px 60px 60px 5%;}
+.at-comingsooncontent .at-socialicons {
+	left: auto;
+	right: 60px;
+}
+.at-postmetadata li + li {padding: 0 40px 0 0;}
+.at-formsearch fieldset .form-control {padding: 15px 20px 15px 50px;}
+.at-formsearch fieldset button {
+	right: auto;
+	left: 0;
+}
+.at-widgettitle:before {
+	left: auto;
+	right: 0;
+}
+.at-widgetcategories .at-widgetcontent ul li a:before {
+	right: auto;
+	left: 0;
+}
+.at-posttitledate {padding: 0 20px 0 0;}
+.at-postsvtwo .at-posttitle:before {
+	left: auto;
+	right: 0;
+}
+.at-postdetail .at-postfoot ul {padding: 0 30px 0 0;}
+.at-postdetail .at-postfoot ul:before {
+	left: auto;
+	right: 0;
+}
+.at-commentbody {padding: 0 40px 0 0;}
+.at-commenthead time {padding: 2px 40px 0 0;}
+.at-address ul li span{text-align: right;}
+.at-address ul li span a{float: none;}
+.at-address .at-btndirection span {padding: 0 0 0 10px;}

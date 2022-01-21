@@ -1,0 +1,29 @@
+*:after,
+*:before,
+p a,
+a,
+.at-socialicons li a,
+.at-roundicontext,
+.at-roundicontext .at-usericonholder,
+.sub-menu,
+.mega-menu,
+.owl-theme .owl-nav [class*='owl-'],
+.at-slidernav [class*='at-'],
+.at-feature,
+.at-addressholder,
+.at-serviceimg figcaption,
+.at-serviceimg figcaption h2,
+.at-serviceimg figcaption .at-description,
+.at-postcontent,
+.at-homeslidervone .pogoSlider-dir-btn,
+.at-header,
+.at-logo,
+.at-ourservicesarea .at-servicesslider .at-sliderdots button span,
+.at-ourservicesarea .at-featureicon,
+.at-servicecontent {
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}

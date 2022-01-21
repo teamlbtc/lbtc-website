@@ -1,0 +1,541 @@
+@media (max-width:1680px){
+	.at-homeslidervone .item {padding: 0 0 0 25%;}
+	.at-featuresarea {padding: 100px 0 100px 200px; }
+	.at-featuresarea:before { width: 100px; }
+	.at-titleandbtn {padding: 0 20px 0 0;}
+	.at-counterarea:before {
+		right: -300px;
+		width: 200px;
+	}
+	.at-postsvtwo .at-posttitle h2 {
+		font-size: 26px;
+		line-height: 32px;
+	}
+}
+@media (max-width:1600px){}
+@media (max-width:1440px){
+	.at-contactsocial {padding: 0 0 0 20px;}
+	.at-navigation > ul > li {margin: 8px 10px 0;}
+	.at-titleandbtn {width: calc(30% + 40px)}
+	.at-counterarea:before {
+		right: -95px;
+		width: 90px;
+	}
+	.at-postsvtwo .at-posttitle h2 {
+		font-size: 22px;
+		line-height: 26px;
+	}
+}
+@media (max-width:1366px){
+	.at-postsvtwo .at-post {
+		width: 33.33%;
+		float: left;
+	}
+}
+@media (max-width:1360px){}
+@media (max-width:1280px){
+	.at-home .at-logo {width: 250px;}
+	.at-homeslidervone .item {padding: 0 0 0 320px;}
+	.at-homeone .at-navigationarea {padding: 25px 15px 0;}
+	.at-featuresarea:before {width: 60px;}
+	.at-featuresarea {padding: 100px 0 100px 120px;}
+	.at-titleandbtn {width: calc(32% + 40px);}
+	.at-featuresslider .at-slidernav {right: 0;}
+	.at-careers.at-aboutsection{overflow: auto;}
+	.at-headervtwo{padding: 0;}
+	.at-headervtwo .at-contactsocial {padding: 25px 0 10px 30px;}
+	.at-headervtwo .at-navigationarea{padding: 0 20px;}
+	.at-headervtwo .at-logo {padding: 21px 0 0;}
+}
+@media (max-width:1279px){
+	.at-homeslidervthree .at-titleborder h2 {
+		font-size: 44px;
+		line-height: 40px;
+	}
+	.at-ourservicesarea .at-serviceimg figcaption{padding: 20px;}
+	.at-serviceimg figcaption h2 {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.at-aboutsectionvthree .at-aboutus .at-sectiontitleborder h2 {
+		font-size: 38px;
+		line-height: 48px;
+	}
+	.at-servicetabsnav {font-size: 14px;}
+}
+@media (max-width:1199px){
+	.at-ptablefoot .at-btn {width: 100%;}
+	.at-aboutsectionvfourholder .at-textcontent{background: transparent;}
+	.at-homeslidervfour{min-height: 600px;}
+}
+@media (max-width:1080px){
+	.at-home .at-logo {padding: 29px 15px 0;}
+	.at-navigationarea {padding: 25px 10px 0;}
+	.at-navigation > ul > li {margin: 8px 0 0;}
+	.at-navigation ul li a {padding: 0 10px 27px;}
+	.at-contactsocial {padding: 0 0 0 10px;}
+	.at-contactsocial .at-socialicons {padding: 0 0 0 10px;}
+	.at-homeslider .item,
+	.at-homeslider .pogoSlider-slide{
+		padding: 0;
+		overflow: hidden;
+	}
+	.at-featuresslider .at-slidernav {right: 15px;}
+	.at-featuresarea {padding: 100px 0;}
+	.at-featuresarea:before,
+	.at-counterarea:before {width: 0;}
+	/* .at-homeslider .item img {
+		width: auto;
+		height: 570px;
+		max-width: none;
+		margin: 0 0 0 -200px;
+	} */
+	.at-titleandbtn {
+		padding: 0;
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		text-align: center;
+	}
+	.at-titleandbtn h2 {margin: 0 15px 30px;}
+	.at-features {
+		margin: 0;
+		width: 100%;
+		float: left;
+		padding: 40px 15px 0;
+	}
+	.at-emailsubscribearea p {
+		float: none;
+		margin: 0 auto;
+		max-width: 415px;
+	}
+	.at-formnewsletter{
+		float: none;
+		overflow: hidden;
+		margin: 20px auto 0;
+	}
+	.at-aboutus .at-textcontent {
+		padding: 45px;
+		margin: 50px 0 0 0;
+	}
+	.at-requestacallback {padding: 45px;}
+	.at-sectiontitleborder h2 {font-size: 34px;}
+	.at-counterarea .at-titleandbtn {padding: 0 0 20px;}
+	.at-scounter{
+		width: 100%;
+		text-align: center;
+	}
+	.at-addressusa .at-address ul{padding: 0 0 43px;}
+	.at-postsvtwo .at-postslider .at-posttitle h2 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+}
+@media (max-width:1050px){}
+@media (max-width:1024px){
+	.at-dropdowarrow{
+		z-index: 2;
+		display: block;
+	}
+	/*==========================================================================================
+			For Mobile Nav use this code in Responsive.css desired Query
+	==========================================================================================*/
+	.navbar-toggle{
+		margin: 0;
+		display: block;
+	}
+	.navbar-collapse.collapse {display: none!important;}
+	.collapse.in{display:block !important;}
+	/*==========================================================================================
+				For Mobile Nav use this code in Responsive.css desired Query
+	==========================================================================================*/
+	.at-navigationarea {padding: 20px !important;}
+	.at-contactsocial {padding: 2px 0 2px 20px;}
+	.at-home .at-logo {padding: 23px 15px 0;}
+	.at-navigation{
+		left: 0;
+		top: 100%;
+		float: none;
+		width: 100%;
+		background: #fff;
+		position: absolute;
+	}
+	.at-navigation ul{
+		width: 100%;
+		float: left;
+		position: static;
+		text-align: center;
+	}
+	.at-navigation ul li{
+		margin: 0;
+		width: 100%;
+		float: left;
+	}
+	.at-navigation ul li a{
+		z-index: 1;
+		line-height: 40px;
+		position: relative;
+		padding: 0 20px 5px;
+	}
+	.at-navigation ul.sub-menu{
+		padding: 0;
+		opacity: 1;
+		display: none;
+		visibility: visible;
+	}
+	.at-navigation ul.sub-menu li a{padding-bottom: 0;}
+	.at-comingsooncontent h2 {
+		margin: 15% 0 0;
+		font: 300 50px/53px 'Rubik', Arial, Helvetica, sans-serif;
+	}
+}
+@media (max-width:991px){
+	.at-aboutus .at-sidebar{padding: 0 0 40PX;}
+	.at-posts .at-sidebar{padding: 60px 0 0;}
+	.at-faqcategorytitle{padding: 0 0 30px;}
+	.at-ourprocess li figure {
+		width: 100%;
+		margin: 0 0 30px !important;
+	}
+	.at-ourprocess li figure img{
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	.at-processcontent{
+		width: 100%;
+		float: left;
+	}
+	.at-ptable {
+		width: 49%;
+		margin: 0 0 30px;
+	}
+	.at-servicetabsnav {font-size: 14px;}
+	.at-servicetabcontent .at-sectionimg{width: 100%;}
+	.at-servicetabcontent .at-sectionimg img{width: 100%;}
+	.at-homeslidervthree .at-titleborder h2 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.at-slidercontent .at-btns .at-btn{padding: 0 40px;}
+	.at-slidercontent .at-description p {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+	}
+	.at-aboutsectionvthree .at-aboutus .at-sectiontitleborder h2 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	.at-fcolumn + .at-fcolumn {padding: 30px 0 30px 30px;}
+}
+@media (max-width:900px){
+	.at-happycustomers {padding: 40px 0 0;}
+	.at-testimonial{margin: 15px 0;}
+	.at-postsvtwo .at-post {width: 50%;}
+	.at-addressfrance .at-address ul{padding: 0 0 43px;}
+}
+@media (max-width:800px){
+	.at-homeslider .item figcaption {
+		height: 80%;
+		padding: 20px;
+	}
+	.at-titleborder h2{
+		font-size: 30px;
+		line-height: 24px;
+	}
+	.at-titleborder {
+		margin: 0 0 20px;
+		padding: 0 0 20px;
+	}
+	.at-slidercontent .at-description p {font-size: 16px;}
+	.at-aboutsectionvthree .at-counterarea {width: 100%;}
+	.at-homeslidervfive .swiper-pagination-bullet {padding: 15px 15px 15px 50px;}
+	.at-homeslidervfive .swiper-pagination-bullet span{
+		top: 24px;
+		left: 14px;
+		width: 25px;
+		height: 25px;
+		font-size: 12px;
+		line-height: 25px;
+	}
+	.at-homeslidervfive .swiper-pagination-bullet h2 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.at-homeslidervfive .swiper-pagination-bullet .at-description p {font-size: 12px;}
+	.at-homeslidervsix .at-slidercontent.at-slidercontentleft,
+	.at-homeslidervsix .at-slidercontent.at-slidercontentright {padding: 30px;}
+	.at-homeslidervsix .at-titleborder h2 {
+		font-size: 35px;
+		line-height: 35px;
+	}
+}
+@media (max-width:767px){
+	.tg-dropdowarrow{display: block;}
+	.tg-nav{
+		width: auto;
+		float: right;
+	}
+	.tg-navigation{
+		top: 100%;
+		left: 0;
+		background: #fff;
+		position: absolute;
+	}
+	.tg-navigation ul{}
+	.tg-navigation ul li{
+		width: 100%;
+		float: left;
+		display: block;
+	}
+	.sub-menu,
+	.mega-menu{
+		clear: both;
+		float: left;
+		display: none;
+		position: static;
+		width: 100% !important;
+	}
+	.at-homeslider .item figcaption,
+	 {height: 286px;}
+	.at-aboutus .at-sectionimg {
+		margin: 0 0 -100px;;
+		width: 100%;
+	}
+	.at-aboutus .at-textcontent {
+		padding: 30px;
+		margin: 0 45px;
+		width: calc(100% - 90px);
+	}
+	.at-counters{padding: 0;}
+	.at-counters li{
+		width: 50%;
+		padding: 15px 0;
+	}
+	.at-requestacallback .at-textcontent{
+		width: 100%;
+		float: left;
+		padding: 0 0 30px;
+	}
+	.at-formrequestcallback{
+		width: 100%;
+		float: left;
+	}
+	.at-requestacallback {
+		padding: 20px;
+		margin: 0 0 50px;
+	}
+	.at-whychooseus{
+		width: 100%;
+		float: left;
+		padding: 0;
+	}
+	.at-whychooseus + .at-whychooseus{padding: 40px 0 0;}
+	.at-fcolumn,
+	.at-fcolumn + .at-fcolumn {
+		width: 100%;
+		padding: 30px 0;
+	}
+	.at-homeslider .item img{
+		width: auto;
+		height: 500px;
+		max-width: none;
+	}
+	.at-home .at-header,
+	.at-header{background: #fff;}
+	.at-home .at-logo {
+		width: 200px;
+		padding: 21px 0 21px 20px;
+	}
+	.at-infoemail {
+		top: 18%;
+		left: 15px;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	.at-homeslider .item figcaption {left: 15px;}
+	.at-titleandbtn h2 {
+		font-size: 28px;
+		font-weight: 300;
+		line-height: 32px;
+	}
+	.at-aboutus .at-textcontent {
+		padding: 20px;
+		margin: 0 15px;
+		width: calc(100% - 30px);
+	}
+	.at-griditem{width: 100%;}
+	.at-ptable {width: 100%;}
+	.at-servicetabsnav li{
+		width: 33.33%;
+		float: left;
+	}
+	.at-servicetabsnav li:nth-child(1),
+	.at-servicetabsnav li:nth-child(2),
+	.at-servicetabsnav li:nth-child(3){border-bottom: 1px solid #e7e7e7}
+	.at-servicedetailsection .at-servicetabcontent .at-liststyle li{width: 100%;}
+	.at-comingsooncontent{width: 100%;}
+	.at-rightimgbox{display: none;}
+	.at-colcontact{padding: 15px 0 0;}
+	.at-contactusvtwo .at-locationmap{
+		width: 100%;
+		float: left;
+		height: 350px;
+		position: static;
+	}
+	.at-contactusvtwo .at-formcontacus{
+		width: 100%;
+		float: left;
+		padding: 100px 15px 0;
+	}
+	.at-contactusvthree .at-formcontacus {padding: 30px 15% 30px 30px;}
+	.at-contactusvfour .at-locationmap{
+		width: 100%;
+		float: left;
+		height: 500px;
+		position: relative;
+	}
+	.at-contactusvfour .at-formtheme.at-formcontacus{
+		width: 100%;
+		float: left;
+		padding: 30px;
+	}
+	.at-homeslidervthree{height: 260px;}
+	.at-homeslidervthree .pogoSlider-slide figure{display: none;}
+	.at-homeslidervthree .at-pogolidercontent{
+		width: 100%;
+		padding: 0;
+		height: 230px;
+	}
+	.at-homeslidervthree .at-slidercontent {
+		padding: 0;
+		height: auto;
+	}
+	.at-homethree .at-ourservicesarea{
+		height: auto;
+		display: block;
+	}
+	.at-aboutsectionvthree .at-aboutus .at-sectionimg{
+		width: 50%;
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	.at-aboutsectionvthree .at-aboutus .at-sectionimg:after{
+		clear: both;
+		content: '';
+		display: block;
+	}
+	.at-aboutsectionvthree .at-aboutus .at-textcontent{
+		margin: 0;
+		width: 100%;
+		padding: 50px 0 0;
+	}
+	.at-homethree .at-homesliderarea {height: 400px;}
+	.at-homethree .at-main {
+		margin: -200px 0 0;
+		padding: 200px 0 0;
+	}
+	.at-homeslidervfour .at-titleborder h2 {
+		font-size: 36px;
+		line-height: 30px;
+	}
+	.at-homeslidervfour .at-slidercontent{width: 100%;}
+}
+@media (max-width:720px){}
+@media (max-width:640px){
+	.at-aboutusslider figure figcaption {
+		padding: 0 20px;
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.at-fullheight{height: auto;}
+	.at-maintenancepage .at-content{
+		height: auto;
+		display: block;
+		padding:  70px 0;
+	}
+	.at-aboutsectionvthree .at-aboutus .at-sectionimg {width: 70%;}
+}
+@media (max-width:568px){
+	.at-home .at-logo,
+	.at-logo {
+		float: none;
+		display: block;
+		margin: 0 auto;
+		padding: 15px 0;
+	}
+	.at-navigationarea {
+		width: 100%;
+		padding: 0 0 15px;
+		text-align: center;
+	}
+	.at-nav,
+	.at-contactsocial{
+		float: none;
+		vertical-align: top;
+		display: inline-block;
+	}
+	.at-homeslider .at-slidernav{display: none;}
+	.at-homeslider .item figcaption,
+	.at-pogolidercontent {
+		left: 15px;
+		height: 314px;
+		width: calc(100% - 30px);
+	}
+	.at-postsvtwo .at-post {width: 100%;}
+}
+@media (max-width:480px){
+	.at-slidercontent .at-btns .at-btn{padding: 0 25px;}
+	.at-addressarea {
+		width: 100%;
+		max-width: 420px;
+		padding: 134px 15px;
+	}
+	.at-addressslider {padding: 50px 20px;}
+	.at-aboutus .at-member figure {
+		width: 130PX;
+		margin: 0 20px 0 0;
+	}
+	.at-servicetabsnav li{width: 50%;}
+	.at-servicetabsnav li:nth-child(4){border-bottom: 1px solid #e7e7e7}
+	.at-homeslidervfour .at-titleborder h2 {
+		font-size: 30px;
+		line-height: 24px;
+	}
+	.at-homeslidervsix .at-slidercontent.at-slidercontentleft,
+	.at-homeslidervsix .at-slidercontent.at-slidercontentright {padding: 15px;}
+	.at-homeslidervsix .at-titleborder h2 {
+		font-size: 28px;
+		line-height: 28px;
+	}
+}
+@media (max-width:360px){
+	.at-titleborder h2 {
+		font-size: 24px;
+		line-height: 20px;
+	}
+	.at-slidercontent .at-description {padding: 0 0 26px;}
+	.at-slidercontent .at-description p {line-height: 24px;}
+	.at-contactusvthree .at-formcontacus {padding: 15px;}
+}
+@media (max-width:320px){
+	.at-servicetabsnav li{width: 100%;}
+	
+}
+@media (max-height:640px){
+	.at-comingsooncontent{
+		height: auto;
+		padding: 30px 5% 30px 30px;
+	}
+	.at-comingsooncontent .at-socialicons{
+		width: 100%;
+		float: left;
+		position: static;
+	}
+}

@@ -1,0 +1,91 @@
+/*==========================================================================================
+								Primery Theme Colors
+==========================================================================================*/
+/*=============================================
+			Theme Text Color
+=============================================*/
+a,
+p a,
+p a:hover,
+a:hover,
+a:focus,
+a:active,
+.at-stars span:after,
+.at-titleandbtn h2 span,
+.at-happycustomers h3,
+.at-testimonial h3,
+.at-widgetusefullinks .at-widgetcontent ul li a:hover,
+.at-liststyle li:before,
+.at-history li h3,
+.at-ptablebody h3 sup,
+.at-contacticon,
+.at-contacticon i,
+.at-serviceicon,
+.at-addressslider h2,
+.sub-menu li:hover > a,
+.sub-menu li a:hover,
+.sub-menu li a:focus,
+.sub-menu li.current-menu-item > a,
+.at-homeslidervthree .at-titleborder h2 em,
+.at-aboutsectionvthree .at-aboutus .at-sectiontitleborder h2 span,
+.at-homeslidervfour .at-titleborder h2 em,
+.at-homeslidervfive .at-titleborder h2 em{ color: #CC8F00; }
+/*=============================================
+			Theme Background Color
+=============================================*/
+.at-dropdowarrow,
+.navbar-toggle,
+.at-contactsocial .at-socialicons li a:hover,
+.at-navigation > ul > li > a:before,
+/* .at-homeslider .item figcaption, */
+.at-pogolidercontent,
+/* .center .at-feature, */
+.at-feature:hover,
+.at-widgetusefullinks .at-widgetcontent ul li a:before,
+.at-widgettext,
+.at-sidebar .at-widgetlinking ul li a:before,
+.at-skillbar,
+.at-comingsooncontent .at-socialicons li a:hover,
+.at-faqcategory h2 span:first-child,
+.at-ptable:nth-child(2) .at-ptablehead,
+.at-contactusvone .at-btn,
+.at-contactusvthree .at-formcontacus,
+.at-whitesocialicons li a:hover,
+.at-servicesvone .at-service:hover figcaption,
+.at-parallexservices,
+.at-widgetcategories .at-widgetcontent ul li a:before,
+.at-pagination ul li a:hover,
+.at-pagination ul li.at-active a,
+.at-sliderdots .owl-dot.active span,
+.at-dropdowarrow,
+.at-formnewsletter fieldset .at-btn,
+.at-ourservicesarea,
+.at-aboutsectionvtwo .at-aboutus .at-sectionimg:before,
+.at-fcolumn .at-socialicons li a:hover,
+.at-aboutsectionvthree .at-aboutus .at-sectionimg:before,
+.at-postsvtwo .at-postslider .at-post:hover .at-postcontent,
+.at-homefour .at-main,
+.at-contactusvtwo .at-btn,
+.at-aboutplusconter .at-aboutus .at-imgholder:before,
+.loader,
+.lds-roller { background:#CC8F00; }
+.at-whychooseusarea { background:#D9DBDC; }
+.at-liststyletick li:before {background-color:#CC8F00;}
+.at-postsvtwo .at-post:hover .at-postcontent {background: rgba(44, 103, 244, 0.80);}
+/*=============================================
+			Theme Border Color
+=============================================*/
+input:focus,
+.select select:focus,
+.form-control:focus,
+.at-addressholder:hover,
+.at-pagination ul li a:hover,
+.at-pagination ul li.at-active a,
+.at-postcontent .at-description blockquote,
+.at-formnewsletter fieldset .at-btn { border-color: #fff; }
+.at-formnewsletter fieldset .at-btn:hover { border-color: #222; background: #222; }
+/*=============================================
+			Theme Other Colors
+=============================================*/
+.at-homeslidervsix .at-pogolidercontent:before{background: rgba(98, 157, 54, 0.70);}
+.at-homeslidervsix .at-pogolidercontent:after{background: rgba(0, 180, 210, 0.70);}
